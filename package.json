@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "boxicons": "^2.1.4",
+    "flowbite": "^2.3.0",
+    "typed": "^10.0.0-beta.2"
+  }
+}

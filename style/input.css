@@ -1,0 +1,208 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+   
+    box-sizing: border-box;
+}
+body{
+ background:#171717 !important;
+ box-sizing: border-box;
+ padding: 20px;
+/* background: linear-gradient(90deg, rgb(2, 2, 2) 0%, rgb(28, 28, 29) 21%, rgb(8, 8, 8) 100%); */
+
+}
+
+
+/* .home{
+    height: 70vh;
+} */
+/* welcome page */
+.toolti{
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.384);
+    letter-spacing: 2px;
+}
+.myName{
+    font-size: 5rem;
+    position: relative;
+    color: rgba(255, 255, 255, 0.678);
+    text-decoration: none;
+box-shadow: inset 0 -2px 0 rgba(50,85,127,0.5), 0 2px 0 rgba(50,85,127,0);
+transition: box-shadow .3s;
+overflow: hidden;
+}
+.myName:before{
+    
+        content: "";
+        position: absolute;
+        left: 7%;
+        bottom: 16px;
+        width: 300px;
+        height: 14px;
+        transform: skew(-12deg) translateX(-50%);
+        /* background:green; */
+    background: linear-gradient(to right,#af40ff,#5b42f3 50%,#00ddeb) ;
+
+        z-index: -1;
+        
+}
+
+.professions{
+
+
+    /* font-size: 40px;  */
+    font-family: Arial, Helvetica, sans-serif; 
+    background: linear-gradient(to right,#af40ff,#5b42f3 50%,#00ddeb) ;
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;
+    font-size: 3rem;
+
+    
+}
+
+/* icon color */
+.iconColor{
+    color:rgba(255, 255, 255, 0.384);
+    font-size: 1.4rem;
+}
+.iconColor:hover{
+    
+    cursor: pointer;
+    color:rgba(255, 255, 255, 0.795);
+    transform: scale(2, 0.5);
+    color: #5b42f3;
+}
+.professions{
+    
+ transform: scale(2, 0.5);
+    color: #5b42f3;
+}
+/* navs */
+.navs{
+    padding: 10px 0 8px;
+    position: relative;
+  
+    background: linear-gradient(to right,#af40ff,#5b42f3 50%,#00ddeb) ;
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+}
+.active::before {
+    content: "";
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    width: 60%;
+    height: 10px;
+    padding-top: 10px;
+    transform: skew(-12deg) translateX(-5%);
+    background: #af40ff;
+    color: linear-gradient(to right,#af40ff,#5b42f3 50%,#00ddeb) !important ;
+    z-index: -1;
+  }
+
+
+
+  /* button */
+  .knowmore-two {
+    color: #FFF !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 0.5s;
+    position: relative; 
+    border: 1px solid #af40ff;
+    animation: scaleUpDown 2s infinite alternate;
+
+  }
+  .knowmore-two span {
+    z-index: 2; 
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+  }
+  .knowmore-two::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s;
+    border: 1px solid rgba(255,255,255,0.2);
+    background-color: rgba(255,255,255,0.1);
+  }
+  .knowmore-two::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s;
+    border: 1px solid rgba(255,255,255,0.2);
+    background-color: rgba(255,255,255,0.1);
+  }
+  .knowmore-two:hover::before {
+    transform: rotate(-45deg);
+    background-color: rgba(255,255,255,0);
+  }
+  .knowmore-two:hover::after {
+    transform: rotate(45deg);
+    background-color: rgba(255,255,255,0);
+  }
+  .knowmore-two:hover{
+    background: linear-gradient(to right,#af40ff,#5b42f3 50%,#00ddeb) !important ;
+    border: none;
+    animation: none;
+    transform: scale(1.5);
+
+  }
+  @keyframes scaleUpDown {
+    0% {
+        transform: scale(1); /* Start with normal size */
+    }
+    100% {
+        transform: scale(1.1); /* End with 10% larger size */
+        background-color:#af40ff6b ;
+    }}
+
+
+
+    /* about page */
+    .progress{
+    background: linear-gradient(to right,#af40ff,#5b42f3 50%,#00ddeb) !important ;
+
+    }
+    .decor{
+    background: linear-gradient(to right,#af40ff,#5b42f3 50%,#00ddeb)  ;
+   top: -50px;
+   left: -50px;
+    
+
+   animation: rotateAnimation 10s linear infinite; /* Adjust duration as needed */
+}
+
+@keyframes rotateAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg); /* Rotate 360 degrees for one complete rotation */
+    }
+}
+
+
+
+.skill {
+    opacity: 0;
+    transform: translateY(20px); /* Adjust as needed */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
