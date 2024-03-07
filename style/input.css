@@ -8,6 +8,8 @@ html{
 *{
    
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 body{
  background:#171717 !important;
@@ -22,6 +24,9 @@ body{
     height: 70vh;
 } */
 /* welcome page */
+.header{
+    z-index: 1000;
+}
 .toolti{
     font-size: 1.5rem;
     color: rgba(255, 255, 255, 0.384);
@@ -110,6 +115,16 @@ overflow: hidden;
 
 
   /* button */
+  .aboutme{
+    font-family: "Comfortaa", sans-serif;
+    color: rgba(255, 255, 255, 0.884);
+  }
+  emphasis{
+    color:#5b42f3;
+    font-weight: bolder;
+    background-color: white;
+    font-size: 1.3rem;
+  }
   .knowmore-two {
     color: #FFF !important;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
