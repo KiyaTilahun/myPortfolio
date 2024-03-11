@@ -2,6 +2,9 @@
   "devDependencies": {
     "tailwindcss": "^3.4.1"
   },
+  "scripts": {
+    "build":"npx tailwindcss -i ./style/input.css -o ./style/styles.css --watch"
+  },
   "dependencies": {
     "boxicons": "^2.1.4",
     "flowbite": "^2.3.0",
