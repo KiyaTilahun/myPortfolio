@@ -21,6 +21,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <link
       href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap"
       rel="stylesheet"
@@ -44,27 +45,28 @@
       <div class="flex flex-col justify-center h-3/5 gap-3 pr-5">
         <div class="active text-blue-800 navs toggle-element text-right">
           <a href="#home">
-            <i class="bx bx-home"></i> <span class="toggle-element"></span
+            <i class="bx bx-home"></i> <span class="vertical-name  text-[16px]">HOME</span
           ></a>
         </div>
-        <div class="text-blue-800 navs toggle-element cursor-pointer">
-          <a href="#about"
-            ><i class="bx bx-user"></i> <span class="toggle-element"></span
+        <div class=" text-blue-800 navs toggle-element text-right">
+          <a href="#about">
+            <i class="bx bx-user"></i> <span class="vertical-name  text-[16px]">ABOUT</span
           ></a>
         </div>
-        <div class="text-blue-800 navs">
-          <a href="#projects"
-            ><i class="bx bx-home"></i> <span class="toggle-element"></span
+        <div class=" text-blue-800 navs toggle-element text-right">
+          <a href="#projects">
+            <i class="bx bx-notepad"></i> <span class="vertical-name text-[16px]">PROJECTS</span
           ></a>
         </div>
-        <div class="text-blue-800 navs toggle-element">
-          <a href="#contact"
-            ><i class="bx bx-home"></i> <span class="toggle-element"></span
+        <div class=" text-blue-800 navs toggle-element text-right">
+          <a href="#contact">
+            <i class="bx bxs-contact"></i> <span class="vertical-name  text-[16px]">CONTACT</span
           ></a>
         </div>
       </div>
     </div>
     <!-- header -->
+    
     <section
       class="sm:hidden header flex items-center fixed top-0 left-0 justify-between w-full m-0 backdrop-blur-xs bg-black opacity-40"
     >
@@ -137,7 +139,7 @@
                 aria-controls="navbar-default"
                 aria-expanded="true"
                 ><i
-                  class="bx bx-user pr-5 text-center"
+                  class="bx bx-notepad pr-5 text-center"
                   style="color: #5b42f3"
                 ></i>
                 <span class="toggle-element">Projects</span></a
@@ -150,7 +152,7 @@
                 aria-controls="navbar-default"
                 aria-expanded="true"
                 ><i
-                  class="bx bx-user pr-5 text-center"
+                  class="bx bx-contact pr-5 text-center"
                   style="color: #5b42f3"
                 ></i>
                 <span class="toggle-element">Contact</span></a
@@ -169,7 +171,8 @@
         <i class="bx"></i>
       </div>
     </section>
-    <section class="lg:mx-20 sm:mx-10" id="home">
+    <div class="mainbody">
+    <section class="lg:mx-24 sm:mx-15 page mx-8" id="home">
       <section
         class="section home w-3/4 relative flex flex-col items-center h-auto mx-auto mt-20 justify-center"
       >
@@ -185,10 +188,10 @@
           </div>
 
           <div
-            class="md:w-2/3 pt-32 md:pt-0 flex-col items-start justify-center self-center"
+            class="md:w-2/3 pt-32 md:pt-0 flex-col items-start justify-center self-center introduction"
           >
-            <div class="toolti"><u>Hi There</u> ,My name is</div>
-            <div class="myName">james</div>
+            <div class="toolti"><u>Hi There  👋</u> ,My name is</div>
+            <div class="myName">Kiya</div>
             <div class="description" style="color: white; height: auto">
               I am
               <span id="professions"
@@ -532,15 +535,9 @@
         </footer>
       </section>
     </section>
+  </div>
 
 
-<section class="footer">
-  
-
-
-
-
-</section>
     <!-- scripts -->
     <!-- <script src="node_modules/typed.js/dist/typed.umd.js"></script> -->
     <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
@@ -648,6 +645,14 @@
           }
         });
       });
+
+
+
+
+
+     
+
+
     </script>
 
     <script src="scripts/script.js"></script>
