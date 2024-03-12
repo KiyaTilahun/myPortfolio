@@ -43,24 +43,24 @@
       class="nav hidden md:block md:fixed top-0 right-0 md:h-screen overflow-hidden sm:z-50 "
     >
       <div class="flex flex-col justify-center h-3/5 gap-3 pr-5">
-        <div class="active text-blue-800 navs toggle-element text-right">
+        <div class="active text-blue-800 navs toggle-element text-right transition ease-in-out delay-1000">
           <a href="#home">
             <i class="bx bx-home"></i> <span class="vertical-name  text-[16px]">HOME</span
           ></a>
         </div>
-        <div class=" text-blue-800 navs toggle-element text-right">
+        <div class=" text-blue-800 navs toggle-element text-right transition ease-in-out delay-1000">
           <a href="#about">
-            <i class="bx bx-user"></i> <span class="vertical-name  text-[16px]">ABOUT</span
+            <i class="bx bx-user"></i> <span class="vertical-name  text-[16px] ">ABOUT</span
           ></a>
         </div>
-        <div class=" text-blue-800 navs toggle-element text-right">
+        <div class=" text-blue-800 navs toggle-element text-right transition ease-in-out delay-1000">
           <a href="#projects">
-            <i class="bx bx-notepad"></i> <span class="vertical-name text-[16px]">PROJECTS</span
+            <i class="bx bx-notepad"></i> <span class="vertical-name text-[16px] ">PROJECTS</span
           ></a>
         </div>
-        <div class=" text-blue-800 navs toggle-element text-right">
+        <div class=" text-blue-800 navs toggle-element text-right transition ease-linear delay-1000">
           <a href="#contact">
-            <i class="bx bxs-contact"></i> <span class="vertical-name  text-[16px]">CONTACT</span
+            <i class="bx bxs-contact"></i> <span class="vertical-name  text-[16px] ">CONTACT</span
           ></a>
         </div>
       </div>
@@ -68,13 +68,13 @@
     <!-- header -->
     
     <section
-      class="sm:hidden header flex items-center fixed top-0 left-0 justify-between w-full m-0 backdrop-blur-xs bg-black opacity-40"
+      class="sm:hidden header flex items-center fixed top-0 left-0 justify-between w-full m-0 backdrop-blur-xs bg-black  opacity-90 "
     >
       <div class="w-full">
         <button
           data-collapse-toggle="navbar-default"
           type="button"
-          class="pt-4 inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none dark:text-gray-400 dark:hover:bg-gray-700 focus:text-blue-500"
+          class="pt-4 inline-flex items-center  w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden  focus:outline-none dark:text-gray-400 dark:hover:bg-gray-700 focus:text-blue-500"
           aria-controls="navbar-default"
           aria-expanded="false"
         >
@@ -96,14 +96,14 @@
           </svg>
         </button>
         <div
-          class="hidden w-full md:hidden md:w-auto h-screen bg-cover bg-black opacity-90"
+          class="hidden w-full  md:hidden md:w-auto h-3/4 bg-cover bg-[#171717b9] "
           id="navbar-default"
         >
           <ul
-            class="smallnav text-white font-medium flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:dark:bg-gray-900 dark:border-gray-700 h-screen items-center"
+            class="smallnav text-white font-medium flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:dark:bg-gray-900 dark:border-gray-700 h-3/5 items-center"
           >
             <li
-              class="text-4xl border-b-4 border-blue-500 py-3 w-full content-center"
+              class="text-2xl  py-3 w-full content-center"
             >
               <a
                 href="#about"
@@ -119,7 +119,7 @@
                 ></a
               >
             </li>
-            <li class="text-4xl border-b-4 border-blue-500 py-3 w-full">
+            <li class="text-2xl py-3 w-full">
               <a
                 href="#about"
                 data-collapse-toggle="navbar-default"
@@ -132,7 +132,7 @@
                 <span class="toggle-element">About</span></a
               >
             </li>
-            <li class="text-4xl border-b-4 border-blue-500 py-3 w-full">
+            <li class="text-2xl py-3 w-full">
               <a
                 href="#about"
                 data-collapse-toggle="navbar-default"
@@ -145,7 +145,7 @@
                 <span class="toggle-element">Projects</span></a
               >
             </li>
-            <li class="text-4xl border-b-4 border-blue-500 py-3 w-full">
+            <li class="text-2xl py-3 w-full">
               <a
                 href="#about"
                 data-collapse-toggle="navbar-default"
@@ -177,7 +177,7 @@
         class="section home w-3/4 relative flex flex-col items-center h-auto mx-auto mt-20 justify-center"
       >
         <div
-          class="w-full flex md:flex-row flex-col md:gap-16 items-center md:items-center"
+          class="w-full flex md:flex-row flex-col md:gap-16 items-center md:items-center "
         >
           <div class="md:block md:w-1/2">
             <img
@@ -188,11 +188,11 @@
           </div>
 
           <div
-            class="md:w-2/3 pt-32 md:pt-0 flex-col items-start justify-center self-center introduction"
+            class="md:w-2/3 pt-20 md:pt-0 flex-col items-start justify-center self-center introduction text-center"
           >
             <div class="toolti"><u>Hi There  👋</u> ,My name is</div>
             <div class="myName">Kiya</div>
-            <div class="description" style="color: white; height: auto">
+            <div class="description w-full md:h-100px" style="color: white; height: 80px">
               I am
               <span id="professions"
                 ><span class="professions" style="color: Green"
@@ -265,14 +265,14 @@
         </div>
         <div
           class="w-full lg:basis-1/2 sm:pr-10 lg:block md:backdropblur-3xl lg:self-center"
-        >
-          <div class="skills flex flex-col sm:grid grid-cols-2 gap-4">
-            <span class="text-blue-600 dark:text-blue-500 sm:hidden"
-              >Skill Sets</span
-            >
+        > 
+        <span class="text-blue-600 dark:text-blue-500 sm:hidden"
+        >Skill Sets</span>
+          <div class="skills grid grid-cols-2 flex-col sm:grid sm:grid-cols-3 gap-4">
+           
             <div class="skill p-4 border border-gray-200">
               <div class="flex justify-between">
-                <h3 class="text-lg font-semibold">LARAVEL</h3>
+                <h3 class="text-base font-semibold">LARAVEL</h3>
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/115px-Laravel.svg.png?20190820171151"
                   alt="laravel"
@@ -292,7 +292,7 @@
             </div>
             <div class="skill p-4 border border-gray-200">
               <div class="flex justify-between">
-                <h3 class="text-lg font-semibold">HTML</h3>
+                <h3 class="text-base font-semibold">HTML</h3>
                 <img
                   src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
                   alt="html5"
@@ -312,7 +312,7 @@
             </div>
             <div class="skill p-4 border border-gray-200">
               <div class="flex justify-between">
-                <h3 class="text-lg font-semibold">CSS</h3>
+                <h3 class="text-base font-semibold">CSS</h3>
                 <img
                   src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
                   alt="css3"
@@ -332,7 +332,7 @@
             </div>
             <div class="skill p-4 border border-gray-200">
               <div class="flex justify-between">
-                <h3 class="text-lg font-semibold">TAILWIND</h3>
+                <h3 class="text-base font-semibold">TAILWIND</h3>
                 <img
                   src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
                   alt="tailwind"
@@ -352,7 +352,7 @@
             </div>
             <div class="skill p-4 border border-gray-200">
               <div class="flex justify-between">
-                <h3 class="text-lg font-semibold">GIT</h3>
+                <h3 class="text-base font-semibold">GIT</h3>
                 <img
                   src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
                   alt="git"

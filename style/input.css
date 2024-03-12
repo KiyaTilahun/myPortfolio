@@ -46,6 +46,9 @@ body {
 .smallnav {
   background-color: #171717b9;
 }
+#navbar-default li{
+  transition: all 3s ease-in-out;
+}
 .myName {
   font-size: 3rem;
   position: relative;
@@ -90,12 +93,14 @@ body {
 .navs {
   padding: 10px 0 8px;
   position: relative;
-
   background: linear-gradient(to right, #af40ff, #5b42f3 50%, #00ddeb);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-size: 1.5rem;
   font-family: "Montserrat", sans-serif;
+  transition: ease-in-out 1s;
+
+ 
 }
 .active::before {
   content: "";
@@ -109,6 +114,7 @@ body {
   background: #af40ff;
   color: linear-gradient(to right, #af40ff, #5b42f3 50%, #00ddeb) !important ;
   z-index: -1;
+  transition: ease-in-out 1s;
 }
 .navs i {
   display: block;
