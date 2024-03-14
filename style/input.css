@@ -45,9 +45,15 @@ body {
 }
 .smallnav {
   background-color: #171717b9;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+
 }
 #navbar-default li{
   transition: all 3s ease-in-out;
+}
+.active1{
+  color: #5b42f3;
 }
 .myName {
   font-size: 3rem;

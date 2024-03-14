@@ -68,7 +68,7 @@
     <!-- header -->
     
     <section
-      class="sm:hidden header flex items-center fixed top-0 left-0 justify-between w-full m-0 backdrop-blur-xs bg-black  opacity-90 "
+      class="sm:hidden header flex items-center fixed top-0 left-0 justify-between w-full m-0 backdrop-blur-xs hover:bg-black  opacity-90 " id="home"
     >
       <div class="w-full">
         <button
@@ -106,16 +106,16 @@
               class="text-2xl  py-3 w-full content-center"
             >
               <a
-                href="#about"
+                href="#home"
                 data-collapse-toggle="navbar-default"
                 aria-controls="navbar-default"
                 aria-expanded="true"
-                ><i
+                >
+                <span class="toggle-element navshrink" 
+                  ><i
                   class="bx bx-home pr-5 text-center"
-                  style="color: #5b42f3"
-                ></i>
-                <span class="toggle-element" style="color: #5b42f3"
-                  >Home</span
+                  
+                ></i> Home</span
                 ></a
               >
             </li>
@@ -125,37 +125,36 @@
                 data-collapse-toggle="navbar-default"
                 aria-controls="navbar-default"
                 aria-expanded="true"
-                ><i
+                >
+                <span class="toggle-element navshrink"><i
                   class="bx bx-user pr-5 text-center"
-                  style="color: #5b42f3"
-                ></i>
-                <span class="toggle-element">About</span></a
+                ></i>About</span></a
               >
             </li>
             <li class="text-2xl py-3 w-full">
               <a
-                href="#about"
+                href="#projects"
                 data-collapse-toggle="navbar-default"
                 aria-controls="navbar-default"
                 aria-expanded="true"
-                ><i
+                >
+                <span class="toggle-element navshrink"><i
                   class="bx bx-notepad pr-5 text-center"
-                  style="color: #5b42f3"
-                ></i>
-                <span class="toggle-element">Projects</span></a
+                  
+                ></i>Projects</span></a
               >
             </li>
             <li class="text-2xl py-3 w-full">
               <a
-                href="#about"
+                href="#contact"
                 data-collapse-toggle="navbar-default"
                 aria-controls="navbar-default"
                 aria-expanded="true"
-                ><i
-                  class="bx bx-contact pr-5 text-center"
-                  style="color: #5b42f3"
-                ></i>
-                <span class="toggle-element">Contact</span></a
+                >
+                <span class="toggle-element navshrink"><i
+                  class="bx bx-phone pr-5 text-center"
+                  
+                ></i>Contact</span></a
               >
             </li>
           </ul>
@@ -200,22 +199,20 @@
                 >
               </span>
             </div>
-            <div class="hidden sm:block social-links">
-              <a href="" class="iconColor pr-1"
+            <div class="hidden sm:block social-links gap">
+              <a href="https://github.com/KiyaTilahun" class="iconColor pl-1 cursor-pointer"
                 ><i class="bx bxl-github"></i
               ></a>
-              <a href="" class="iconColor pr-1"
+              <a href="https://github.com/KiyaTilahun" class="iconColor pl-1 cursor-pointer"
                 ><i class="bx bxl-facebook"></i
               ></a>
-              <a href="" class="iconColor pr-1"
-                ><i class="bx bxl-whatsapp"></i
-              ></a>
-              <a href="" class="iconColor pr-1"
-                ><i class="bx bxl-telegram"></i
-              ></a>
-              <a href="" class="iconColor pr-1"
+              <a href="https://linkedin.com/in/kiya-tilahun-5b2266202/" class="iconColor pl-2 cursor-pointer"
                 ><i class="bx bxl-linkedin"></i
-              ></a>
+              ></a><a href="https://instagram.com/kiya_tilahun_lemmi/" class="iconColor pl-2 cursor-pointer"
+              ><i class="bx bxl-instagram"></i
+            ></a><a href="https://t.me/Kkkiaa1" class="iconColor pl-2 cursor-pointer"
+            ><i class="bx bxl-telegram"></i
+          ></a>
             </div>
           </div>
         </div>
@@ -240,7 +237,7 @@
         <div class="w-full lg:basis-1/2 mt-10 backdrop-blur-sm">
           <!-- <div class="text-2xl font-bold text-white pt-5">So who am I?</div> -->
           <div class="two alt-two text-right text-2xl font-bold p-4">
-            <h1>Alternate</h1>
+            <h1>Who am  I?</h1>
           </div>
 
           <p class="pt-14 aboutme text-justify sm:pr-8 twelve">
@@ -263,11 +260,13 @@
             curiosity and driven by the desire to innovate.
           </p>
         </div>
+        <div class=" w-full two alt-two text-center text-2xl font-bold p-4 sm:hidden m-8 ">
+          <h1>Skill Sets</h1>
+        </div>
         <div
           class="w-full lg:basis-1/2 sm:pr-10 lg:block md:backdropblur-3xl lg:self-center"
         > 
-        <span class="text-blue-600 dark:text-blue-500 sm:hidden"
-        >Skill Sets</span>
+       
           <div class="skills grid grid-cols-2 flex-col sm:grid sm:grid-cols-3 gap-4">
            
             <div class="skill p-4 border border-gray-200">
@@ -374,11 +373,11 @@
         </div>
       </section>
 
-      <section id="projects">
+      <section>
         <div
           class="two alt-two text-right text-2xl font-bold p-4 text-white m-4"
         >
-          <h1>Projects</h1>
+          <h1  id="projects">Projects</h1>
         </div>
         <div class="grid sm:grid-cols-2 md:grid-cols-2 gap-4">
           <div>
@@ -426,7 +425,7 @@
         </div>
       </section>
 
-      <section class="contact">
+      <section class="contact" id="contact">
         <div
           class="two alt-two text-right text-2xl font-bold p-4 text-white m-4"
         >
@@ -507,12 +506,12 @@
         </div>
       </section>
       <section class="footer mt-10">
-        <footer class=" shadowbg-gray-900 m-0 bg-neutral-900 border-t-[1px]">
-          <div class="w-full max-w-screen-xl  p-4 md:py-8">
+        <footer class=" shadowbg-gray-900 m-0 bg-neutral-900 ">
+          <div class="w-full max-w-screen-xl  p-4 md:py-4 mx-auto">
               <div class="sm:flex sm:items-center sm:justify-between">
                   <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
-                      <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
-                      <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Kiya Tilahun</span>
+                      <img src="../assets/images/logo-no-background.png" class="h-8"  />
+                      
                   </a>
                   <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                       <li class="hover:underline hover:text-[#5b42f3]">
@@ -645,6 +644,21 @@
           }
         });
       });
+
+
+      const navshrink = document.querySelectorAll(".navshrink");
+      navshrink.forEach((element) => {
+        element.addEventListener("click", function (e) {
+          if (!element.classList.contains("active1")) {
+            navshrink.forEach((el) => {
+              el.classList.remove("active1");
+            });
+ 
+            element.classList.toggle("active1");
+          }
+        });
+      });
+
 
 
 
