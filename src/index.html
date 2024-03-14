@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script defer src="../scripts/script.js"></script>
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
     <link rel="stylesheet" href="../style/styles.css" />
     <link rel="stylesheet" href="../style/buttons.css" />
 
@@ -112,9 +112,11 @@
    
     <div id="content" style="display: none">
       <!-- up arrow -->
-     <div class="hidden arrowup rounded-full fixed bottom-4 right-4  z-50 flex items-center justify-center text-center" id="arrow">
-     <a href="#home2"> <i class='bx bx-chevron-up text-white text-4xl'></i></a>
+      <a href="#home2"> 
+     <div class="hidden arrowup rounded-full fixed bottom-4 right-4  flex items-center justify-center text-center" id="arrow">
+     <i class='bx bx-chevron-up text-white text-4xl'></i>
      </div>
+    </a>
       <!-- end up arrow -->
       <!-- fixed social media -->
 
@@ -903,7 +905,7 @@
                     <a href="" class="text-blue-500 font-bold"
                       >click <i class="bx bxl-github text-xl"></i> here</a
                     >
-                    the link to see the code
+                     to see the code
                   </div>
                   <hr
                     class="sm:hidden my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"
@@ -924,13 +926,14 @@
     </div>
     <!-- scripts -->
     <!-- <script src="node_modules/typed.js/dist/typed.umd.js"></script> -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
 
     <!-- types script -->
     <script>
       // welcome page typing effect
-
+      
       var typed = new Typed("#professions", {
         strings: [
           "<span class='professions' >UI Designer.</span>",
@@ -940,9 +943,10 @@
         ],
         typeSpeed: 100,
         backSpeed: 20,
-
+      
         startDelay: 2000,
         backDelay: 700,
+        loop: true
       });
     </script>
     <!-- skill set script -->
