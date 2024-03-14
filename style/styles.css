@@ -1089,6 +1089,14 @@ input:checked + .toggle-bg {
   bottom: 0px;
 }
 
+.bottom-4 {
+  bottom: 1rem;
+}
+
+.bottom-7 {
+  bottom: 1.75rem;
+}
+
 .bottom-\[60px\] {
   bottom: 60px;
 }
@@ -1107,6 +1115,10 @@ input:checked + .toggle-bg {
 
 .top-0 {
   top: 0px;
+}
+
+.right-4 {
+  right: 1rem;
 }
 
 .z-10 {
@@ -1196,6 +1208,10 @@ input:checked + .toggle-bg {
   margin-top: 3rem;
 }
 
+.mt-16 {
+  margin-top: 4rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -1276,16 +1292,16 @@ input:checked + .toggle-bg {
   height: 1.25rem;
 }
 
+.h-52 {
+  height: 13rem;
+}
+
 .h-56 {
   height: 14rem;
 }
 
 .h-6 {
   height: 1.5rem;
-}
-
-.h-64 {
-  height: 16rem;
 }
 
 .h-8 {
@@ -1302,6 +1318,10 @@ input:checked + .toggle-bg {
 
 .h-full {
   height: 100%;
+}
+
+.h-screen {
+  height: 100vh;
 }
 
 .w-1\/2 {
@@ -1322,6 +1342,10 @@ input:checked + .toggle-bg {
 
 .w-5 {
   width: 1.25rem;
+}
+
+.w-52 {
+  width: 13rem;
 }
 
 .w-64 {
@@ -1466,6 +1490,10 @@ input:checked + .toggle-bg {
   justify-content: space-between;
 }
 
+.gap-2 {
+  gap: 0.5rem;
+}
+
 .gap-3 {
   gap: 0.75rem;
 }
@@ -1508,6 +1536,10 @@ input:checked + .toggle-bg {
 
 .rounded-lg {
   border-radius: 0.5rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
 }
 
 .rounded-e-lg {
@@ -1609,6 +1641,11 @@ input:checked + .toggle-bg {
 .bg-neutral-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(23 23 23 / var(--tw-bg-opacity));
+}
+
+.bg-red-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 232 232 / var(--tw-bg-opacity));
 }
 
 .bg-transparent {
@@ -1771,6 +1808,11 @@ input:checked + .toggle-bg {
   line-height: 1.75rem;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1807,6 +1849,11 @@ input:checked + .toggle-bg {
   letter-spacing: -0.025em;
 }
 
+.text-blue-500 {
+  --tw-text-opacity: 1;
+  color: rgb(63 131 248 / var(--tw-text-opacity));
+}
+
 .text-blue-600 {
   --tw-text-opacity: 1;
   color: rgb(28 100 242 / var(--tw-text-opacity));
@@ -1840,6 +1887,11 @@ input:checked + .toggle-bg {
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.text-gray-700 {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
 .text-gray-800 {
@@ -2037,6 +2089,12 @@ body {
   font-family: "IBM Plex Mono", monospace;
 }
 
+@media screen and (min-width: 767px) {
+  .introduction{
+    text-align: start !important;
+  }
+}
+
 .professions {
   /* font-size: 40px;  */
   font-family: Arial, Helvetica, sans-serif;
@@ -2051,6 +2109,17 @@ body {
 .iconColor {
   color: rgba(255, 255, 255, 0.384);
   font-size: 1.4rem;
+}
+
+.iconColor1 {
+  color: rgba(255, 255, 255, 0.384);
+  font-size: 1.4rem;
+}
+
+/* arrow up */
+
+.arrowup{
+  background: linear-gradient(to right, #af40ff, #5b42f3 50%, #00ddeb);
 }
 
 .iconColor:hover {
@@ -2367,6 +2436,12 @@ emphasis {
   background-color: #af40ff;
 }
 
+.hover\:scale-125:hover {
+  --tw-scale-x: 1.25;
+  --tw-scale-y: 1.25;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .hover\:border-gray-300:hover {
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
@@ -2438,6 +2513,10 @@ emphasis {
 .hover\:grayscale-0:hover {
   --tw-grayscale: grayscale(0);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.hover\:filter-none:hover {
+  filter: none;
 }
 
 .focus\:border-blue-700:focus {
@@ -2626,6 +2705,10 @@ emphasis {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
   .sm\:items-center {
     align-items: center;
   }
@@ -2650,6 +2733,10 @@ emphasis {
 @media (min-width: 768px) {
   .md\:fixed {
     position: fixed;
+  }
+
+  .md\:left-0 {
+    left: 0px;
   }
 
   .md\:mb-0 {
@@ -2754,6 +2841,14 @@ emphasis {
     margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
+  .md\:self-end {
+    align-self: flex-end;
+  }
+
+  .md\:rounded-full {
+    border-radius: 9999px;
+  }
+
   .md\:rounded-none {
     border-radius: 0px;
   }
@@ -2783,6 +2878,10 @@ emphasis {
 
   .md\:pt-0 {
     padding-top: 0px;
+  }
+
+  .md\:text-right {
+    text-align: right;
   }
 
   :is(.dark .md\:dark\:bg-gray-900) {

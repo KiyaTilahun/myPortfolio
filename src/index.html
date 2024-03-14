@@ -21,7 +21,10 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap"
       rel="stylesheet"
@@ -40,675 +43,885 @@
     </div> -->
     <!-- fixed navs -->
 
-<div class="loader1 flex h-screen w-full items-center justify-center bg-blue-600-">
-  <svg width="30" height="30" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><style>.spinner_9Mto{
-    fill: #5b42f3;}spinner_bb12{
-      fill: #af40ff;
-    }.spinner_9Mto{animation:spinner_5GqJ 1.6s linear infinite;animation-delay:-1.6s}.spinner_bb12{animation-delay:-1s}@keyframes spinner_5GqJ{12.5%{x:13px;y:1px}25%{x:13px;y:1px}37.5%{x:13px;y:13px}50%{x:13px;y:13px}62.5%{x:1px;y:13px}75%{x:1px;y:13px}87.5%{x:1px;y:1px}}</style><rect class="spinner_9Mto" x="1" y="1" rx="1" width="10" height="10"/><rect class="spinner_9Mto spinner_bb12" x="1" y="1" rx="1" width="10" height="10"/></svg>
-</div>
-<div id="content" style="display: none;">
-
     <div
-      class="nav hidden md:block md:fixed top-0 right-0 md:h-screen overflow-hidden sm:z-50 "
+      class="loader1 flex h-screen w-full items-center justify-center bg-blue-600-"
     >
-      <div class="flex flex-col justify-center h-3/5 gap-3 pr-5">
-        <div class="active text-blue-800 navs toggle-element text-right transition ease-in-out delay-1000">
+      <svg
+        width="30"
+        height="30"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <style>
+          .spinner_9Mto {
+            fill: #5b42f3;
+          }
+          spinner_bb12 {
+            fill: #af40ff;
+          }
+          .spinner_9Mto {
+            animation: spinner_5GqJ 1.6s linear infinite;
+            animation-delay: -1.6s;
+          }
+          .spinner_bb12 {
+            animation-delay: -1s;
+          }
+          @keyframes spinner_5GqJ {
+            12.5% {
+              x: 13px;
+              y: 1px;
+            }
+            25% {
+              x: 13px;
+              y: 1px;
+            }
+            37.5% {
+              x: 13px;
+              y: 13px;
+            }
+            50% {
+              x: 13px;
+              y: 13px;
+            }
+            62.5% {
+              x: 1px;
+              y: 13px;
+            }
+            75% {
+              x: 1px;
+              y: 13px;
+            }
+            87.5% {
+              x: 1px;
+              y: 1px;
+            }
+          }
+        </style>
+        <rect class="spinner_9Mto" x="1" y="1" rx="1" width="10" height="10" />
+        <rect
+          class="spinner_9Mto spinner_bb12"
+          x="1"
+          y="1"
+          rx="1"
+          width="10"
+          height="10"
+        />
+      </svg>
+    </div>
+
+   
+    <div id="content" style="display: none">
+      <!-- up arrow -->
+     <div class="hidden arrowup rounded-full fixed bottom-4 right-4  z-50 flex items-center justify-center text-center" id="arrow">
+     <a href="#home2"> <i class='bx bx-chevron-up text-white text-4xl'></i></a>
+     </div>
+      <!-- end up arrow -->
+      <!-- fixed social media -->
+
+
+      <div class="fixed h-auto  flex flex-col gap-2 items-center bottom-7">
+        <a
+          href="https://github.com/KiyaTilahun"
+          class="iconColor1 pl-1 cursor-pointer hover:text-[#5b42f3]"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a
+          href="https://github.com/KiyaTilahun"
+          class="iconColor1 pl-1 cursor-pointer hover:text-[#5b42f3]"
+          ><i class="bx bxl-facebook"></i
+        ></a>
+        <a
+          href="https://linkedin.com/in/kiya-tilahun-5b2266202/"
+          class="iconColor1 pl-2 cursor-pointer hover:text-[#5b42f3] "
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+      </div>
+
+      <!-- end social media -->
+      <div
+        class="nav hidden md:block md:fixed top-0 right-0 md:h-screen overflow-hidden sm:z-50"
+      >
+        <div class="flex flex-col justify-center h-3/5 gap-3 pr-5">
           <a href="#home2">
-            <i class="bx bx-home"></i> <span class="vertical-name  text-[16px]">HOME</span
-          ></a>
-        </div>
-        <div class=" text-blue-800 navs toggle-element text-right transition ease-in-out delay-1000">
+            <div
+              class="active text-blue-800 navs toggle-element text-right transition ease-in-out delay-1000"
+            >
+              <i class="bx bx-home"></i>
+              <span class="vertical-name text-[16px]">HOME</span>
+            </div>
+          </a>
           <a href="#about">
-            <i class="bx bx-user"></i> <span class="vertical-name  text-[16px] ">ABOUT</span
-          ></a>
-        </div>
-        <div class=" text-blue-800 navs toggle-element text-right transition ease-in-out delay-1000">
+            <div
+              class="text-blue-800 navs toggle-element text-right transition ease-in-out delay-1000"
+            >
+              <i class="bx bx-user"></i>
+              <span class="vertical-name text-[16px]">ABOUT</span>
+            </div>
+          </a>
           <a href="#projects">
-            <i class="bx bx-notepad"></i> <span class="vertical-name text-[16px] ">PROJECTS</span
-          ></a>
-        </div>
-        <div class=" text-blue-800 navs toggle-element text-right transition ease-linear delay-1000">
+            <div
+              class="text-blue-800 navs toggle-element text-right transition ease-in-out delay-1000"
+            >
+              <i class="bx bx-notepad"></i>
+              <span class="vertical-name text-[16px]">PROJECTS</span>
+            </div>
+          </a>
           <a href="#contact">
-            <i class="bx bxs-contact"></i> <span class="vertical-name  text-[16px] ">CONTACT</span
-          ></a>
+            <div
+              class="text-blue-800 navs toggle-element text-right transition ease-linear delay-1000"
+            >
+              <i class="bx bxs-contact"></i>
+              <span class="vertical-name text-[16px]">CONTACT</span>
+            </div>
+          </a>
         </div>
       </div>
-    </div>
 
+      <div class="absolute top-0 md:left-0 right-0 p-4">
+        <a
+          href="https://github.com/KiyaTilahun"
+          target="_blank"
+          class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
+        >
+          <img src="../assets/images/logo-no-background.png" class="h-8" />
+        </a>
+      </div>
+      <!-- header -->
 
-    <div class="absolute top-0 md:left-0 right-0 p-4">
-      <a href="https://github.com/KiyaTilahun" target="_blank" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">  <img src="../assets/images/logo-no-background.png" class="h-8"  />
-      </a>
-    </div>
-    <!-- header -->
-    
-    <section
-      class="sm:hidden header flex items-center fixed top-0 left-0 justify-between w-full m-0  backdrop-blur-xs hover:bg-black  opacity-90 " id="home"
-    >
-      <div class="w-full">
-        <button
-          data-collapse-toggle="navbar-default"
-          type="button"
-          class="pt-4 inline-flex items-center  w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden  focus:outline-none dark:text-gray-400 dark:hover:bg-gray-700 focus:text-blue-500"
-          aria-controls="navbar-default"
-          aria-expanded="false"
-        >
-          <span class="sr-only">Open main menu</span>
-          <svg
-            class="w-5 h-5"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 17 14"
+      <section
+        class="sm:hidden header flex items-center fixed top-0 left-0 justify-between w-full m-0 backdrop-blur-xs hover:bg-black opacity-90"
+        
+      >
+        <div class="w-full">
+          <button
+            data-collapse-toggle="navbar-default"
+            type="button"
+            class="pt-4 inline-flex items-center w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden focus:outline-none dark:text-gray-400 dark:hover:bg-gray-700 focus:text-blue-500"
+            aria-controls="navbar-default"
+            aria-expanded="false"
           >
-            <path
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M1 1h15M1 7h15M1 13h15"
-            />
-          </svg>
-        </button>
-        <div
-          class="hidden w-full  md:hidden md:w-auto h-3/4 bg-cover bg-[#171717b9] "
-          id="navbar-default"
-        >
-          <ul
-            class="smallnav text-white font-medium flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:dark:bg-gray-900 dark:border-gray-700 h-3/5 items-center"
-          >
-            <li
-              class="text-2xl  py-3 w-full content-center"
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-5 h-5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 17 14"
             >
-              <a
-                href="#home"
-                data-collapse-toggle="navbar-default"
-                aria-controls="navbar-default"
-                aria-expanded="true"
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15"
+              />
+            </svg>
+          </button>
+          <div
+            class="hidden w-full md:hidden md:w-auto h-3/4 bg-cover bg-[#171717b9]"
+            id="navbar-default"
+          >
+            <ul
+              class="smallnav text-white font-medium flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:dark:bg-gray-900 dark:border-gray-700 h-3/5 items-center"
+            >
+              <li class="text-2xl py-3 w-full content-center">
+                <a
+                  href="#home2"
+                  data-collapse-toggle="navbar-default"
+                  aria-controls="navbar-default"
+                  aria-expanded="true"
                 >
-                <span class="toggle-element navshrink" 
-                  ><i
-                  class="bx bx-home pr-5 text-center"
-                  
-                ></i> Home</span
-                ></a
-              >
-            </li>
-            <li class="text-2xl py-3 w-full">
-              <a
-                href="#about"
-                data-collapse-toggle="navbar-default"
-                aria-controls="navbar-default"
-                aria-expanded="true"
+                  <span class="toggle-element navshrink"
+                    ><i class="bx bx-home pr-5 text-center"></i> Home</span
+                  ></a
                 >
-                <span class="toggle-element navshrink"><i
-                  class="bx bx-user pr-5 text-center"
-                ></i>About</span></a
-              >
-            </li>
-            <li class="text-2xl py-3 w-full">
-              <a
-                href="#projects"
-                data-collapse-toggle="navbar-default"
-                aria-controls="navbar-default"
-                aria-expanded="true"
+              </li>
+              <li class="text-2xl py-3 w-full">
+                <a
+                  href="#about"
+                  data-collapse-toggle="navbar-default"
+                  aria-controls="navbar-default"
+                  aria-expanded="true"
                 >
-                <span class="toggle-element navshrink"><i
-                  class="bx bx-notepad pr-5 text-center"
-                  
-                ></i>Projects</span></a
+                  <span class="toggle-element navshrink"
+                    ><i class="bx bx-user pr-5 text-center"></i>About</span
+                  ></a
+                >
+              </li>
+              <li class="text-2xl py-3 w-full">
+                <a
+                  href="#projects"
+                  data-collapse-toggle="navbar-default"
+                  aria-controls="navbar-default"
+                  aria-expanded="true"
+                >
+                  <span class="toggle-element navshrink"
+                    ><i class="bx bx-notepad pr-5 text-center"></i
+                    >Projects</span
+                  ></a
+                >
+              </li>
+              <li class="text-2xl py-3 w-full">
+                <a
+                  href="#contact"
+                  data-collapse-toggle="navbar-default"
+                  aria-controls="navbar-default"
+                  aria-expanded="true"
+                >
+                  <span class="toggle-element navshrink"
+                    ><i class="bx bx-phone pr-5 text-center"></i>Contact</span
+                  ></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="text-right w-full hidden sm:block">
+          <i class="bx bxl-linkedin text-3xl" style="color: #5b42f3"></i>
+          <i class="bx bxl-twitter text-3xl" style="color: #5b42f3"></i>
+          <i class="bx bxl-github text-3xl" style="color: #5b42f3"></i>
+
+          <i class="bx"></i>
+          <i class="bx"></i>
+        </div>
+      </section>
+      <div class="mainbody">
+        <section class="lg:mx-24 sm:mx-15 page mx-8" id="home2">
+          <section
+            class="section home w-3/4 relative flex flex-col items-center h-auto mx-auto mt-16 justify-center"
+          >
+            <div
+              class="w-full flex md:flex-row flex-col md:gap-16 items-end md:items-center mt-20"
+            >
+              <div class="md:block md:w-1/2 self-center">
+                <img
+                  class="object-cover w-52 h-52 md:h-auto md:w-full md:rounded-full rounded-full transition duration-300 filter grayscale hover:filter-none hover:grayscale-0"
+                  src="../assets/images/profile.png"
+                  alt=""
+                />
+              </div>
+
+              <div
+                class="md:w-2/3 pt-20 md:pt-0 flex-col justify-center introduction text-center"
               >
-            </li>
-            <li class="text-2xl py-3 w-full">
+                <div class="toolti"><u>Hi There 👋</u> ,My name is</div>
+                <div class="myName font-bolder">Kiya</div>
+                <div
+                  class="description w-full md:h-100px"
+                  style="color: white; height: 80px"
+                >
+                  I am
+                  <span id="professions"
+                    ><span class="professions" style="color: Green"
+                      >Backend Developer</span
+                    >
+                  </span>
+                </div>
+                <div class="hidden sm:block social-links gap">
+                  <a
+                    href="https://github.com/KiyaTilahun"
+                    class="iconColor pl-1 cursor-pointer"
+                    ><i class="bx bxl-github"></i
+                  ></a>
+                  <a
+                    href="https://github.com/KiyaTilahun"
+                    class="iconColor pl-1 cursor-pointer"
+                    ><i class="bx bxl-facebook"></i
+                  ></a>
+                  <a
+                    href="https://linkedin.com/in/kiya-tilahun-5b2266202/"
+                    class="iconColor pl-2 cursor-pointer"
+                    ><i class="bx bxl-linkedin"></i></a
+                  ><a
+                    href="https://instagram.com/kiya_tilahun_lemmi/"
+                    class="iconColor pl-2 cursor-pointer"
+                    ><i class="bx bxl-instagram"></i></a
+                  ><a
+                    href="https://t.me/Kkkiaa1"
+                    class="iconColor pl-2 cursor-pointer"
+                    ><i class="bx bxl-telegram"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="md:self-end mt-20 md:text-right w-full text-center">
               <a
                 href="#contact"
-                data-collapse-toggle="navbar-default"
-                aria-controls="navbar-default"
-                aria-expanded="true"
-                >
-                <span class="toggle-element navshrink"><i
-                  class="bx bx-phone pr-5 text-center"
-                  
-                ></i>Contact</span></a
+                class="knowmore-two bg-transparent text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded text-xl"
               >
-            </li>
-          </ul>
-        </div>
-      </div>
+                Get In Touch
+                <!-- <i class="bx bx-right-arrow-alt text-xl" style="color: #fff"></i> -->
+              </a>
+            </div>
 
-      <div class="text-right w-full hidden sm:block">
-        <i class="bx bxl-linkedin text-3xl" style="color: #5b42f3"></i>
-        <i class="bx bxl-twitter text-3xl" style="color: #5b42f3"></i>
-        <i class="bx bxl-github text-3xl" style="color: #5b42f3"></i>
+            <!-- <div class=""><img class="absolute right-1/3 hidden md:block h-auto max-w-lg transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0" src="../assets/images/checker.png" alt=""></div> -->
+          </section>
 
-        <i class="bx"></i>
-        <i class="bx"></i>
-      </div>
-    </section>
-    <div class="mainbody ">
-    <section class="lg:mx-24 sm:mx-15 page mx-8" id="home2" >
-      <section
-        class="section home w-3/4 relative flex flex-col items-center h-auto mx-auto mt-20 justify-center"
-      >
-        <div
-          class="w-full flex md:flex-row flex-col md:gap-16 items-center md:items-center "
-        >
-          <div class="md:block md:w-1/2">
-            <img
-              class="object-cover w-64 h-64 md:h-auto md:w-full md:rounded-none md:rounded-s-lg rounded-full"
-              src="../assets/images/profile.jpeg"
-              alt=""
-            />
-          </div>
-
-          <div
-            class="md:w-2/3 pt-20 md:pt-0 flex-col items-start justify-center self-center introduction text-center"
+          <section
+            id="about"
+            class="relative section about flex text-opacity-0.5 text-white w-full mx-auto flex-wrap md:mt-36 mt-20"
           >
-            <div class="toolti"><u>Hi There  👋</u> ,My name is</div>
-            <div class="myName">Kiya</div>
-            <div class="description w-full md:h-100px" style="color: white; height: 80px">
-              I am
-              <span id="professions"
-                ><span class="professions" style="color: Green"
-                  >Backend Developer</span
+            <!-- <div class="hidden md:block absolute md:w-28 md:h-28 decor rounded-full "></div> -->
+            <!-- <div class="hidden md:block absolute md:w-28 md:h-28 decor2 rounded-full "></div> -->
+
+            <div class="w-full lg:basis-1/2 mt-10">
+              <!-- <div class="text-2xl font-bold text-white pt-5">So who am I?</div> -->
+              <div class="two alt-two text-right text-2xl font-bold p-4">
+                <h1>Who am I?</h1>
+              </div>
+
+              <p class="pt-14 aboutme text-justify sm:pr-8 twelve">
+                Hello! I'm <emphasis>Kiya Tilahun</emphasis>, a passionate
+                5th-year Software Engineering student at Jimma University. With
+                a focus on Full Stack Web Development and Mobile Development, I
+                immerse myself in the dynamic world of coding. From laying down
+                the foundations of logic to crafting intricate applications,
+                programming is my language of creation. Throughout my academic
+                journey, I've delved into various programming languages and
+                paradigms, shaping my understanding and honing my skills. Beyond
+                the classroom, I thrive on real-world projects, where the fusion
+                of theory and practice transforms into tangible solutions.
+                Whether it's the elegance of front-end design or the robustness
+                of back-end architecture, I find joy in every line of code. With
+                each project, I embrace the challenges, learning, and evolving
+                alongside the rapidly evolving tech landscape. In essence, my
+                journey is a testament to my love for coding and my unwavering
+                commitment to mastering the craft. I look forward to the endless
+                possibilities that lie ahead, fueled by curiosity and driven by
+                the desire to innovate.
+              </p>
+            </div>
+            <div
+              class="w-full two alt-two text-center text-2xl font-bold p-4 sm:hidden m-8"
+            >
+              <h1>Skill Sets</h1>
+            </div>
+            <div
+              class="w-full lg:basis-1/2 sm:pr-10 lg:block md:backdropblur-3xl lg:self-center"
+            >
+              <div
+                class="skills grid grid-cols-2 flex-col sm:grid sm:grid-cols-3 gap-4"
+              >
+                <div
+                  class="skill p-4 border border-gray-200 = rounded-xl hover:scale-125"
                 >
-              </span>
-            </div>
-            <div class="hidden sm:block social-links gap">
-              <a href="https://github.com/KiyaTilahun" class="iconColor pl-1 cursor-pointer"
-                ><i class="bx bxl-github"></i
-              ></a>
-              <a href="https://github.com/KiyaTilahun" class="iconColor pl-1 cursor-pointer"
-                ><i class="bx bxl-facebook"></i
-              ></a>
-              <a href="https://linkedin.com/in/kiya-tilahun-5b2266202/" class="iconColor pl-2 cursor-pointer"
-                ><i class="bx bxl-linkedin"></i
-              ></a><a href="https://instagram.com/kiya_tilahun_lemmi/" class="iconColor pl-2 cursor-pointer"
-              ><i class="bx bxl-instagram"></i
-            ></a><a href="https://t.me/Kkkiaa1" class="iconColor pl-2 cursor-pointer"
-            ><i class="bx bxl-telegram"></i
-          ></a>
-            </div>
-          </div>
-        </div>
+                  <div class="flex justify-between">
+                    <h3 class="text-base font-semibold">LARAVEL</h3>
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/115px-Laravel.svg.png?20190820171151"
+                      alt="laravel"
+                      width="40"
+                      height="40"
+                    />
+                  </div>
+                  <div class="flex items-center mt-2">
+                    <div class="w-3/4 h-4 bg-gray-200 rounded-full">
+                      <div
+                        class="h-full progress rounded-full"
+                        style="width: 80%"
+                      ></div>
+                    </div>
+                    <span class="ml-2">80%</span>
+                  </div>
+                </div>
 
-        <a href="#contact"
-          class="mt-20 knowmore-two bg-transparent text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded text-xl text-center"
-        >
-          Get In Touch
-          <i class="bx bx-right-arrow-alt text-xl" style="color: #fff"></i>
-        </a>
+                <div class="skill p-4 border border-gray-200 rounded-xl">
+                  <div class="flex justify-between">
+                    <h3 class="text-base font-semibold">PHP</h3>
+                    <img
+                      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg"
+                      alt="php"
+                      width="40"
+                      height="40"
+                    />
+                  </div>
+                  <div class="flex items-center mt-2">
+                    <div class="w-3/4 h-4 bg-gray-200 rounded-full">
+                      <div
+                        class="h-full progress rounded-full"
+                        style="width: 70%"
+                      ></div>
+                    </div>
+                    <span class="ml-2">80%</span>
+                  </div>
+                </div>
 
-        <!-- <div class=""><img class="absolute right-1/3 hidden md:block h-auto max-w-lg transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0" src="../assets/images/checker.png" alt=""></div> -->
-      </section>
+                <div class="skill p-4 border border-gray-200 rounded-xl">
+                  <div class="flex justify-between">
+                    <h3 class="text-base font-semibold">PYTHON</h3>
+                    <img
+                      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+                      alt="python"
+                      width="40"
+                      height="40"
+                    />
+                  </div>
+                  <div class="flex items-center mt-2">
+                    <div class="w-3/4 h-4 bg-gray-200 rounded-full">
+                      <div
+                        class="h-full progress rounded-full"
+                        style="width: 80%"
+                      ></div>
+                    </div>
+                    <span class="ml-2">80%</span>
+                  </div>
+                </div>
 
-      <section
-        id="about"
-        class="relative section about flex text-opacity-0.5 text-white w-full mx-auto flex-wrap md:mt-36 mt-20"
-      >
-        <!-- <div class="hidden md:block absolute md:w-28 md:h-28 decor rounded-full "></div> -->
-        <!-- <div class="hidden md:block absolute md:w-28 md:h-28 decor2 rounded-full "></div> -->
+                <div class="skill p-4 border border-gray-200 rounded-xl">
+                  <div class="flex justify-between">
+                    <h3 class="text-base font-semibold">JAVA</h3>
+                    <img
+                      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
+                      alt="java"
+                      width="40"
+                      height="40"
+                    />
+                  </div>
+                  <div class="flex items-center mt-2">
+                    <div class="w-3/4 h-4 bg-gray-200 rounded-full">
+                      <div
+                        class="h-full progress rounded-full"
+                        style="width: 90%"
+                      ></div>
+                    </div>
+                    <span class="ml-2">90%</span>
+                  </div>
+                </div>
 
-        <div class="w-full lg:basis-1/2 mt-10 ">
-          <!-- <div class="text-2xl font-bold text-white pt-5">So who am I?</div> -->
-          <div class="two alt-two text-right text-2xl font-bold p-4">
-            <h1>Who am  I?</h1>
-          </div>
+                <div class="skill p-4 border border-gray-200 rounded-xl">
+                  <div class="flex justify-between">
+                    <h3 class="text-base font-semibold">FLUTTER</h3>
+                    <img
+                      src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg"
+                      alt="flutter"
+                      width="40"
+                      height="40"
+                    />
+                  </div>
+                  <div class="flex items-center mt-2">
+                    <div class="w-3/4 h-4 bg-gray-200 rounded-full">
+                      <div
+                        class="h-full progress rounded-full"
+                        style="width: 90%"
+                      ></div>
+                    </div>
+                    <span class="ml-2">90%</span>
+                  </div>
+                </div>
 
-          <p class="pt-14 aboutme text-justify sm:pr-8 twelve">
-            Hello! I'm <emphasis>Kiya Tilahun</emphasis>, a passionate 5th-year
-            Software Engineering student at Jimma University. With a focus on
-            Full Stack Web Development and Mobile Development, I immerse myself
-            in the dynamic world of coding. From laying down the foundations of
-            logic to crafting intricate applications, programming is my language
-            of creation. Throughout my academic journey, I've delved into
-            various programming languages and paradigms, shaping my
-            understanding and honing my skills. Beyond the classroom, I thrive
-            on real-world projects, where the fusion of theory and practice
-            transforms into tangible solutions. Whether it's the elegance of
-            front-end design or the robustness of back-end architecture, I find
-            joy in every line of code. With each project, I embrace the
-            challenges, learning, and evolving alongside the rapidly evolving
-            tech landscape. In essence, my journey is a testament to my love for
-            coding and my unwavering commitment to mastering the craft. I look
-            forward to the endless possibilities that lie ahead, fueled by
-            curiosity and driven by the desire to innovate.
-          </p>
-        </div>
-        <div class=" w-full two alt-two text-center text-2xl font-bold p-4 sm:hidden m-8 ">
-          <h1>Skill Sets</h1>
-        </div>
-        <div
-          class="w-full lg:basis-1/2 sm:pr-10 lg:block md:backdropblur-3xl lg:self-center"
-        > 
-       
-          <div class="skills grid grid-cols-2 flex-col sm:grid sm:grid-cols-3 gap-4">
-           
-            <div class="skill p-4 border border-gray-200 bg-[#f0f0f0] opacity-50 backdrop-blur-md  rounded-xl hover:scale-125">
-              <div class="flex justify-between ">
-                <h3 class="text-base font-semibold">LARAVEL</h3>
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/115px-Laravel.svg.png?20190820171151"
-                  alt="laravel"
-                  width="40"
-                  height="40"
-                />
-              </div>
-              <div class="flex items-center mt-2">
-                <div class="w-3/4 h-4 bg-gray-200 rounded-full">
-                  <div
-                    class="h-full progress rounded-full"
-                    style="width: 80%"
-                  ></div>
+                <div class="skill p-4 border border-gray-200 rounded-xl">
+                  <div class="flex justify-between">
+                    <h3 class="text-base font-semibold">BOOTSTRAP</h3>
+                    <img
+                      src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg"
+                      alt="bootstrap"
+                      width="40"
+                      height="40"
+                    />
+                  </div>
+                  <div class="flex items-center mt-2">
+                    <div class="w-3/4 h-4 bg-gray-200 rounded-full">
+                      <div
+                        class="h-full progress rounded-full"
+                        style="width: 95%"
+                      ></div>
+                    </div>
+                    <span class="ml-2">95%</span>
+                  </div>
                 </div>
-                <span class="ml-2">80%</span>
-              </div>
-            </div>
-           
-            <div class="skill p-4 border border-gray-200  rounded-xl">
-              <div class="flex justify-between">
-                <h3 class="text-base font-semibold">PHP</h3>
-                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/>
-              </div>
-              <div class="flex items-center mt-2">
-                <div class="w-3/4 h-4 bg-gray-200 rounded-full">
-                  <div
-                    class="h-full progress rounded-full"
-                    style="width: 70%"
-                  ></div>
+                <div class="skill p-4 border border-gray-200 rounded-xl">
+                  <div class="flex justify-between">
+                    <h3 class="text-base font-semibold">JAVASCRIPT</h3>
+                    <img
+                      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                      alt="javascript"
+                      width="40"
+                      height="40"
+                    />
+                  </div>
+                  <div class="flex items-center mt-2">
+                    <div class="w-3/4 h-4 bg-gray-200 rounded-full">
+                      <div
+                        class="h-full progress rounded-full"
+                        style="width: 90%"
+                      ></div>
+                    </div>
+                    <span class="ml-2">80%</span>
+                  </div>
                 </div>
-                <span class="ml-2">80%</span>
-              </div>
-            </div>
-        
-            <div class="skill p-4 border border-gray-200  rounded-xl">
-              <div class="flex justify-between">
-                <h3 class="text-base font-semibold">PYTHON</h3>
-                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
-              </div>
-              <div class="flex items-center mt-2">
-                <div class="w-3/4 h-4 bg-gray-200 rounded-full">
-                  <div
-                    class="h-full progress rounded-full"
-                    style="width: 80%"
-                  ></div>
-                </div>
-                <span class="ml-2">80%</span>
-              </div>
-            </div>
-           
-            <div class="skill p-4 border border-gray-200  rounded-xl">
-              <div class="flex justify-between">
-                <h3 class="text-base font-semibold">JAVA</h3>
-                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/>
-              </div>
-              <div class="flex items-center mt-2">
-                <div class="w-3/4 h-4 bg-gray-200 rounded-full">
-                  <div
-                    class="h-full progress rounded-full"
-                    style="width: 90%"
-                  ></div>
-                </div>
-                <span class="ml-2">90%</span>
-              </div>
-            </div>
-            
-            <div class="skill p-4 border border-gray-200 rounded-xl">
-              <div class="flex justify-between">
-                <h3 class="text-base font-semibold">FLUTTER</h3>
-                <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/>
-              </div>
-              <div class="flex items-center mt-2">
-                <div class="w-3/4 h-4 bg-gray-200 rounded-full">
-                  <div
-                    class="h-full progress rounded-full"
-                    style="width: 90%"
-                  ></div>
-                </div>
-                <span class="ml-2">90%</span>
-              </div>
-            </div>
-          
-           
-            <div class="skill p-4 border border-gray-200  rounded-xl">
-              <div class="flex justify-between">
-                <h3 class="text-base font-semibold">BOOTSTRAP</h3>
-                <img src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg" alt="bootstrap" width="40" height="40"/>
-              </div>
-              <div class="flex items-center mt-2">
-                <div class="w-3/4 h-4 bg-gray-200 rounded-full">
-                  <div
-                    class="h-full progress rounded-full"
-                    style="width:95%"
-                  ></div>
-                </div>
-                <span class="ml-2">95%</span>
-              </div>
-            </div>
-            <div class="skill p-4 border border-gray-200  rounded-xl">
-              <div class="flex justify-between">
-                <h3 class="text-base font-semibold">JAVASCRIPT</h3>
-                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
-              </div>
-              <div class="flex items-center mt-2">
-                <div class="w-3/4 h-4 bg-gray-200 rounded-full">
-                  <div
-                    class="h-full progress rounded-full"
-                    style="width: 90%"
-                  ></div>
-                </div>
-                <span class="ml-2">80%</span>
-              </div>
-            </div>
 
-            <div class="skill p-4 border border-gray-200  rounded-xl">
-              <div class="flex justify-between">
-                <h3 class="text-base font-semibold">HTML</h3>
-                <img
-                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
-                  alt="html5"
-                  width="40"
-                  height="40"
-                />
-              </div>
-              <div class="flex items-center mt-2">
-                <div class="w-3/4 h-4 bg-gray-200 rounded-full">
-                  <div
-                    class="h-full progress rounded-full"
-                    style="width: 100%"
-                  ></div>
+                <div class="skill p-4 border border-gray-200 rounded-xl">
+                  <div class="flex justify-between">
+                    <h3 class="text-base font-semibold">HTML</h3>
+                    <img
+                      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+                      alt="html5"
+                      width="40"
+                      height="40"
+                    />
+                  </div>
+                  <div class="flex items-center mt-2">
+                    <div class="w-3/4 h-4 bg-gray-200 rounded-full">
+                      <div
+                        class="h-full progress rounded-full"
+                        style="width: 100%"
+                      ></div>
+                    </div>
+                    <span class="ml-2">100%</span>
+                  </div>
                 </div>
-                <span class="ml-2">100%</span>
-              </div>
-            </div>
-            <div class="skill p-4 border border-gray-200  rounded-xl">
-              <div class="flex justify-between">
-                <h3 class="text-base font-semibold">CSS</h3>
-                <img
-                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
-                  alt="css3"
-                  width="40"
-                  height="40"
-                />
-              </div>
-              <div class="flex items-center mt-2">
-                <div class="w-3/4 h-4 bg-gray-200 rounded-full">
-                  <div
-                    class="h-full progress rounded-full"
-                    style="width: 90%"
-                  ></div>
+                <div class="skill p-4 border border-gray-200 rounded-xl">
+                  <div class="flex justify-between">
+                    <h3 class="text-base font-semibold">CSS</h3>
+                    <img
+                      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+                      alt="css3"
+                      width="40"
+                      height="40"
+                    />
+                  </div>
+                  <div class="flex items-center mt-2">
+                    <div class="w-3/4 h-4 bg-gray-200 rounded-full">
+                      <div
+                        class="h-full progress rounded-full"
+                        style="width: 90%"
+                      ></div>
+                    </div>
+                    <span class="ml-2">90%</span>
+                  </div>
                 </div>
-                <span class="ml-2">90%</span>
-              </div>
-            </div>
-            <div class="skill p-4 border border-gray-200  rounded-xl">
-              <div class="flex justify-between">
-                <h3 class="text-base font-semibold">TAILWIND</h3>
-                <img
-                  src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
-                  alt="tailwind"
-                  width="40"
-                  height="40"
-                />
-              </div>
-              <div class="flex items-center mt-2">
-                <div class="w-3/4 h-4 bg-gray-200 rounded-full">
-                  <div
-                    class="h-full progress rounded-full"
-                    style="width: 80%"
-                  ></div>
+                <div class="skill p-4 border border-gray-200 rounded-xl">
+                  <div class="flex justify-between">
+                    <h3 class="text-base font-semibold">TAILWIND</h3>
+                    <img
+                      src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
+                      alt="tailwind"
+                      width="40"
+                      height="40"
+                    />
+                  </div>
+                  <div class="flex items-center mt-2">
+                    <div class="w-3/4 h-4 bg-gray-200 rounded-full">
+                      <div
+                        class="h-full progress rounded-full"
+                        style="width: 80%"
+                      ></div>
+                    </div>
+                    <span class="ml-2">80%</span>
+                  </div>
                 </div>
-                <span class="ml-2">80%</span>
-              </div>
-            </div>
-            
-            <div class="skill p-4 border border-gray-200 rounded-xl">
-              <div class="flex justify-between">
-                <h3 class="text-base font-semibold">ALPINE JS</h3>
-                <img
-                  src="https://seeklogo.com/images/A/alpine-js-logo-21F4169EAB-seeklogo.com.png"
-                  alt="alpine"
-                  width="40"
-                  height="40"
-                />
-              </div>
-              <div class="flex items-center mt-2">
-                <div class="w-3/4 h-4 bg-gray-200 rounded-full">
-                  <div
-                    class="h-full progress rounded-full"
-                    style="width: 90%"
-                  ></div>
-                </div>
-                <span class="ml-2">90%</span>
-              </div>
-            </div>
-            <div class="skill p-4 border border-gray-200 rounded-xl">
-              <div class="flex justify-between">
-                <h3 class="text-base font-semibold">GIT</h3>
-                <img
-                  src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
-                  alt="git"
-                  width="40"
-                  height="40"
-                />
-              </div>
-              <div class="flex items-center mt-2">
-                <div class="w-3/4 h-4 bg-gray-200 rounded-full">
-                  <div
-                    class="h-full progress rounded-full"
-                    style="width: 80%"
-                  ></div>
-                </div>
-                <span class="ml-2">80%</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      <section class="mt-20">
-        <div
-          class="two alt-two text-right text-2xl font-bold p-4 text-white m-4"
-        >
-          <h1  id="projects">Projects</h1>
-        </div>
-        <div class="grid sm:grid-cols-2 md:grid-cols-2 gap-4">
-          <div class="my_projects">
-            <a
-              href="https://github.com/KiyaTilahun/TaskManager" target="_blank"
-              class="flex flex-col md:items-center border rounded-lg shadow md:flex-row md:max-w-xl border-gray-700 bg-gray-800 hover:bg-gray-700 md:h-40 h-32"
+                <div class="skill p-4 border border-gray-200 rounded-xl">
+                  <div class="flex justify-between">
+                    <h3 class="text-base font-semibold">ALPINE JS</h3>
+                    <img
+                      src="https://seeklogo.com/images/A/alpine-js-logo-21F4169EAB-seeklogo.com.png"
+                      alt="alpine"
+                      width="40"
+                      height="40"
+                    />
+                  </div>
+                  <div class="flex items-center mt-2">
+                    <div class="w-3/4 h-4 bg-gray-200 rounded-full">
+                      <div
+                        class="h-full progress rounded-full"
+                        style="width: 90%"
+                      ></div>
+                    </div>
+                    <span class="ml-2">90%</span>
+                  </div>
+                </div>
+                <div class="skill p-4 border border-gray-200 rounded-xl">
+                  <div class="flex justify-between">
+                    <h3 class="text-base font-semibold">GIT</h3>
+                    <img
+                      src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
+                      alt="git"
+                      width="40"
+                      height="40"
+                    />
+                  </div>
+                  <div class="flex items-center mt-2">
+                    <div class="w-3/4 h-4 bg-gray-200 rounded-full">
+                      <div
+                        class="h-full progress rounded-full"
+                        style="width: 80%"
+                      ></div>
+                    </div>
+                    <span class="ml-2">80%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="mt-20">
+            <div
+              class="two alt-two text-right text-2xl font-bold p-4 text-white m-4"
             >
-              <img
-                class="hidden md:block object-cover w-full rounded-t-lg h-56 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
-                src="../assets/images/taskmanager.png"
-                alt=""
-              />
-              <div class="flex flex-col justify-between p-4 leading-normal">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
-                  Task Manager
-                </h5>
-                <p class="mb-3 font-normal text-gray-400">
-                  This is made with <span class="text-white">  Tailwind CSS,Alpine JS,Laravel,Livewire</span>
-                </p>
-              </div>
-            </a>
-          </div>
-          <div class="my_projects">
-            <a
-              href="https://github.com/KiyaTilahun/TaskManager" target="_blank"
-              class="flex flex-col md:items-center border rounded-lg shadow md:flex-row md:max-w-xl border-gray-700 bg-gray-800 hover:bg-gray-700 md:h-40 h-32"
-            >
-              <img
-                class="hidden md:block object-cover w-full rounded-t-lg h-56 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
-                src="../assets/images/blog.png"
-                alt=""
-              />
-              <div class="flex flex-col justify-between p-4 items-start">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
-                  Simple Personal Blog
-                </h5>
-                <p class="mb-3 font-normal text-gray-400 ">
-                  This is made with  <span class="text-white"> Larvavel UI,Bootstrap  </span>
-                </p>
-              </div>
-            </a>
-          </div>
-          
-          <div class="my_projects">
-            <a
-              href="https://github.com/KiyaTilahun/Hospital_management_system" target="_blank"
-              class="flex flex-col md:items-center border rounded-lg shadow md:flex-row md:max-w-xl border-gray-700 bg-gray-800 hover:bg-gray-700 md:h-40 h-32"
-            >
-              <img
-                class="hidden md:block object-cover w-full rounded-t-lg h-56 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
-                src="../assets/images/hospital.jpg"
-                alt=""
-              />
-              <div class="flex flex-col justify-between p-4 items-start">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
-                  Hospital Management System
-                </h5>
-                <p class="mb-3 font-normal text-gray-400 ">
-                  This is made with  <span class="text-white"> Larvavel ,Bootstrap  </span>
-                </p>
-              </div>
-            </a>
-          </div>
-          <div class="my_projects">
-            <a
-              href="https://github.com/KiyaTilahun/Flutter_Brew_Crew_App_with_firebase" target="_blank"
-              class="flex flex-col md:items-center border rounded-lg shadow md:flex-row md:max-w-xl border-gray-700 bg-gray-800 hover:bg-gray-700 md:h-40 h-32"
-            >
-            <img class="hidden md:block object-cover w-full rounded-full h-56 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="../assets/images/brewcrew.png" alt="" />
-             
-              <div class="flex flex-col justify-between p-4 items-start">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
-                  Flutter Brew Crew App
-                </h5>
-                <p class="mb-3 font-normal text-gray-400 ">
-                  This is made with  <span class="text-white"> Flutter ,Firebase  </span>
-                </p>
-              </div>
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <section class="contact mt-20" id="contact">
-        <div
-          class="two alt-two text-right text-2xl font-bold p-4 text-white m-4"
-        >
-          <h1>Contact us</h1>
-        </div>
-        <div class="flex flex-wrap  flex-row-reverse md:flex-row items-center justify-center">
-          <div
-            class="mb-10 basis-full   md:basis-1/2 grow-0  md:mb-0 md:w-1/2 md:px-3 lg:px-6 self-start pt-20"
-          >
-            <p class="mb-6 text-neutral-400">
-             You can contact me through the stated phone number or email contact ... 
-            </p>
-            <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-              Addis Ababa,Ethiopia
-            </p>
-            <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-              <a href="tel:+251943072433">+251943072433</a>
-            </p>
-            <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-              <a href="mailto:kiyatilahun7@gmail.com">kiyatilahun7@gmail.com</a>
-            </p>
-          </div>
-          <div
-            class="mb-10 basis-full   md:basis-1/2   md:mb-0 md:w-1/2 md:px-3 lg:px-6 relative"
-          >
-          <div class="h-full w-full absolute top-0 left-0 bg-black text-white z-10 justify-center flex items-center"></div>
-            <form>
-              <div class="md:flex items-center mt-12 ">
-          
-                <div class=" flex flex-col">
-                  <label class="font-semibold leading-none text-gray-300"
-                    >Name</label
-                  >
-                  <input
-                    type="text"
-                    class="leading-none text-gray-50 p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-gray-800 rounded " disabled
-                  />
-                </div>
-                <div class="w-full md:w-1/2 flex flex-col md:ml-6 md:mt-0 mt-4">
-                  <label class="font-semibold leading-none text-gray-300"
-                    >Phone</label
-                  >
-                  <input
-                    type="email"
-                    class="leading-none text-gray-50 p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-gray-800 rounded" disabled
-                  />
-                </div>
-              </div>
-              <div class="md:flex items-center mt-8">
-            
-                <div class="w-full flex flex-col">
-                  <label class="font-semibold leading-none text-gray-300"
-                    >Subject</label
-                  >
-                  <input
-                    type="text"
-                    class="leading-none text-gray-50 p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-gray-800 rounded" disabled
-                  />
-                </div>
-              </div>
-              <div>
-                <div class="w-full flex flex-col mt-8">
-                  <label class="font-semibold leading-none text-gray-300"
-                    >Message</label
-                  >
-                  <textarea
-                    type="text"
-                    class="h-40 text-base leading-none text-gray-50 p-3 focus:outline-none focus:border-blue-700 mt-4 bg-gray-800 border-0 rounded" disabled
-                  ></textarea>
-                </div>
-              </div>
-              <div class="flex items-center justify-center w-full">
-                <button
-                  class="submit mt-9 font-semibold leading-none text-white py-4 px-10 hover:bg-[#5b42f3] rounded-lg   focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none"
+              <h1 id="projects">Projects</h1>
+            </div>
+            <div class="grid sm:grid-cols-2 md:grid-cols-2 gap-4">
+              <div class="my_projects">
+                <a
+                  href="https://github.com/KiyaTilahun/TaskManager"
+                  target="_blank"
+                  class="flex flex-col md:items-center border rounded-lg shadow md:flex-row md:max-w-xl border-gray-700 bg-gray-800 hover:bg-gray-700 md:h-40 h-32"
                 >
-                  Send message
-                </button>
+                  <img
+                    class="hidden md:block object-cover w-full rounded-t-lg h-56 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
+                    src="../assets/images/taskmanager.png"
+                    alt=""
+                  />
+                  <div class="flex flex-col justify-between p-4 leading-normal">
+                    <h5
+                      class="mb-2 text-2xl font-bold tracking-tight text-white"
+                    >
+                      Task Manager
+                    </h5>
+                    <p class="mb-3 font-normal text-gray-400">
+                      This is made with
+                      <span class="text-white">
+                        Tailwind CSS,Alpine JS,Laravel,Livewire</span
+                      >
+                    </p>
+                  </div>
+                </a>
               </div>
-            </form>
-          </div>
-        </div>
-      </section>
-      <section class="footer mt-10">
-        <footer class=" shadowbg-gray-900 m-0 bg-neutral-900 ">
-          <div class="w-full max-w-screen-xl  p-4 md:py-4 mx-auto">
-              <div class="sm:flex sm:items-center sm:justify-between">
-                  <a href="https://github.com/KiyaTilahun" target="_blank" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
-                      <img src="../assets/images/logo-no-background.png" class="h-8"  />
-                      
+              <div class="my_projects">
+                <a
+                  href="https://github.com/KiyaTilahun/TaskManager"
+                  target="_blank"
+                  class="flex flex-col md:items-center border rounded-lg shadow md:flex-row md:max-w-xl border-gray-700 bg-gray-800 hover:bg-gray-700 md:h-40 h-32"
+                >
+                  <img
+                    class="hidden md:block object-cover w-full rounded-t-lg h-56 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
+                    src="../assets/images/blog.png"
+                    alt=""
+                  />
+                  <div class="flex flex-col justify-between p-4 items-start">
+                    <h5
+                      class="mb-2 text-2xl font-bold tracking-tight text-white"
+                    >
+                      Simple Personal Blog
+                    </h5>
+                    <p class="mb-3 font-normal text-gray-400">
+                      This is made with
+                      <span class="text-white"> Larvavel UI,Bootstrap </span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+
+              <div class="my_projects">
+                <a
+                  href="https://github.com/KiyaTilahun/Hospital_management_system"
+                  target="_blank"
+                  class="flex flex-col md:items-center border rounded-lg shadow md:flex-row md:max-w-xl border-gray-700 bg-gray-800 hover:bg-gray-700 md:h-40 h-32"
+                >
+                  <img
+                    class="hidden md:block object-cover w-full rounded-t-lg h-56 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
+                    src="../assets/images/hospital.jpg"
+                    alt=""
+                  />
+                  <div class="flex flex-col justify-between p-4 items-start">
+                    <h5
+                      class="mb-2 text-2xl font-bold tracking-tight text-white"
+                    >
+                      Hospital Management System
+                    </h5>
+                    <p class="mb-3 font-normal text-gray-400">
+                      This is made with
+                      <span class="text-white"> Larvavel ,Bootstrap </span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="my_projects">
+                <a
+                  href="https://github.com/KiyaTilahun/Flutter_Brew_Crew_App_with_firebase"
+                  target="_blank"
+                  class="flex flex-col md:items-center border rounded-lg shadow md:flex-row md:max-w-xl border-gray-700 bg-gray-800 hover:bg-gray-700 md:h-40 h-32"
+                >
+                  <img
+                    class="hidden md:block object-cover w-full rounded-full h-56 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
+                    src="../assets/images/brewcrew.png"
+                    alt=""
+                  />
+
+                  <div class="flex flex-col justify-between p-4 items-start">
+                    <h5
+                      class="mb-2 text-2xl font-bold tracking-tight text-white"
+                    >
+                      Flutter Brew Crew App
+                    </h5>
+                    <p class="mb-3 font-normal text-gray-400">
+                      This is made with
+                      <span class="text-white"> Flutter ,Firebase </span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </section>
+
+          <section class="contact mt-20" id="contact">
+            <div
+              class="two alt-two text-right text-2xl font-bold p-4 text-white m-4"
+            >
+              <h1>Contact us</h1>
+            </div>
+            <div
+              class="flex flex-wrap flex-row-reverse md:flex-row items-center justify-center"
+            >
+              <div
+                class="mb-10 basis-full md:basis-1/2 grow-0 md:mb-0 md:w-1/2 md:px-3 lg:px-6 self-start pt-20"
+              >
+                <p class="mb-6 text-neutral-400">
+                  You can contact me through the stated phone number or email
+                  contact ...
+                </p>
+                <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                  Addis Ababa,Ethiopia
+                </p>
+                <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                  <a href="tel:+251943072433">+251943072433</a>
+                </p>
+                <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                  <a href="mailto:kiyatilahun7@gmail.com"
+                    >kiyatilahun7@gmail.com</a
+                  >
+                </p>
+              </div>
+              <div
+                class="mb-10 basis-full md:basis-1/2 md:mb-0 md:w-1/2 md:px-3 lg:px-6 relative"
+              >
+                <form>
+                  <div class="md:flex items-center mt-12">
+                    <div class="flex flex-col">
+                      <label class="font-semibold leading-none text-gray-300"
+                        >Name</label
+                      >
+                      <input
+                        type="text"
+                        class="leading-none text-gray-50 p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-gray-800 rounded"
+                        disabled
+                      />
+                    </div>
+                    <div
+                      class="w-full md:w-1/2 flex flex-col md:ml-6 md:mt-0 mt-4"
+                    >
+                      <label class="font-semibold leading-none text-gray-300"
+                        >Phone</label
+                      >
+                      <input
+                        type="email"
+                        class="leading-none text-gray-50 p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-gray-800 rounded"
+                        disabled
+                      />
+                    </div>
+                  </div>
+                  <div class="md:flex items-center mt-8">
+                    <div class="w-full flex flex-col">
+                      <label class="font-semibold leading-none text-gray-300"
+                        >Subject</label
+                      >
+                      <input
+                        type="text"
+                        class="leading-none text-gray-50 p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-gray-800 rounded"
+                        disabled
+                      />
+                    </div>
+                  </div>
+                  <div>
+                    <div class="w-full flex flex-col mt-8">
+                      <label class="font-semibold leading-none text-gray-300"
+                        >Message</label
+                      >
+                      <textarea
+                        type="text"
+                        class="h-40 text-base leading-none text-gray-50 p-3 focus:outline-none focus:border-blue-700 mt-4 bg-gray-800 border-0 rounded"
+                        disabled
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div class="flex items-center justify-center w-full">
+                    <button
+                      class="submit mt-9 font-semibold leading-none text-white py-4 px-10 hover:bg-[#5b42f3] rounded-lg focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none"
+                    >
+                      Send message
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </section>
+          <section class="footer mt-10">
+            <footer class="shadowbg-gray-900 m-0 bg-neutral-900">
+              <div class="w-full max-w-screen-xl p-4 md:py-4 mx-auto">
+                <div class="sm:flex sm:items-center sm:justify-between">
+                  <a
+                    href="https://github.com/KiyaTilahun"
+                    target="_blank"
+                    class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
+                  >
+                    <img
+                      src="../assets/images/logo-no-background.png"
+                      class="h-8"
+                    />
                   </a>
-                  <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
-                      <li class="hover:underline hover:text-[#5b42f3]">
-                          <a href="#" class="hover:underline me-4 md:me-6">Home</a>
-                      </li>
-                      <li>
-                          <a href="#" class="hover:underline me-4 md:me-6">About</a>
-                      </li>
-                      <li>
-                          <a href="#" class="hover:underline me-4 md:me-6">Projects</a>
-                      </li>
-                      <li>
-                          <a href="#" class="hover:underline">Contact</a>
-                      </li>
+                  <ul
+                    class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400"
+                  >
+                    <li class="hover:underline hover:text-[#5b42f3]">
+                      <a href="#" class="hover:underline me-4 md:me-6">Home</a>
+                    </li>
+                    <li>
+                      <a href="#" class="hover:underline me-4 md:me-6">About</a>
+                    </li>
+                    <li>
+                      <a href="#" class="hover:underline me-4 md:me-6"
+                        >Projects</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="hover:underline">Contact</a>
+                    </li>
                   </ul>
+                </div>
+                <hr
+                  class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"
+                />
+                <div class="flex justify-between sm:flex-row flex-col">
+                  <div
+                    class="block text-sm text-gray-500 sm:text-center dark:text-gray-400"
+                  >
+                    The whole portfolio is built using
+                    <span class="text-gray-700">HTML,CSS,JS,Tailwind CSS</span>
+                    from scratch
+                    <a href="" class="text-blue-500 font-bold"
+                      >click <i class="bx bxl-github text-xl"></i> here</a
+                    >
+                    the link to see the code
+                  </div>
+                  <hr
+                    class="sm:hidden my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"
+                  />
+                  <span
+                    class="block text-sm text-gray-500 sm:text-center dark:text-gray-400"
+                    >© 2024
+                    <a href="https://flowbite.com/" class="hover:underline"
+                      >kiya tilahun </a
+                    >. All Rights Reserved.</span
+                  >
+                </div>
               </div>
-              <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-              <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="https://flowbite.com/" class="hover:underline">kiya tilahun </a>. All Rights Reserved.</span>
-          </div>
-        </footer>
-      </section>
-    </section>
-  </div>
-
-</div>
+            </footer>
+          </section>
+        </section>
+      </div>
+    </div>
     <!-- scripts -->
     <!-- <script src="node_modules/typed.js/dist/typed.umd.js"></script> -->
     <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
@@ -804,20 +1017,18 @@
 
     <!-- active links -->
     <script>
-      document.addEventListener("DOMContentLoaded", function() {
+      document.addEventListener("DOMContentLoaded", function () {
         const loader = document.querySelector(".loader1");
         const content = document.getElementById("content");
-      
+
         // Show loader
-        
-      
+
         // Hide loader and show content after 3 seconds
-        setTimeout(function() {
+        setTimeout(function () {
           loader.style.display = "none";
           content.style.display = "block";
         }, 3000);
       });
-
 
       const navs = document.querySelectorAll(".navs");
       navs.forEach((element) => {
@@ -832,7 +1043,6 @@
         });
       });
 
-
       const navshrink = document.querySelectorAll(".navshrink");
       navshrink.forEach((element) => {
         element.addEventListener("click", function (e) {
@@ -840,20 +1050,29 @@
             navshrink.forEach((el) => {
               el.classList.remove("active1");
             });
- 
+
             element.classList.toggle("active1");
           }
         });
       });
-
-
-
-
-
-
-     
-
-
+    </script>
+    <script>
+      const targetElement = document.getElementById('arrow');
+ 
+  
+      window.addEventListener('scroll', function() {
+        // Get the scroll position
+         const scroll = window.scrollY;
+         if (scroll > 100) { // Change the scroll threshold as needed
+          targetElement.classList.remove('hidden');
+        
+        }  else { // Change the scroll threshold as needed
+          targetElement.classList.add('hidden');
+        
+        } 
+       
+      });
+      
     </script>
 
     <script src="scripts/script.js"></script>
