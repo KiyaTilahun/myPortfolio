@@ -41,7 +41,9 @@ body {
   color: rgba(255, 255, 255, 0.801);
   letter-spacing: 2px;
   font-weight: 200;
-  font-style: italic;
+  font-family: "Genos", sans-serif;
+
+  /* font-style: italic; */
 }
 .smallnav {
   background-color: #171717b9;
@@ -60,12 +62,13 @@ body {
   position: relative;
   color: rgba(255, 255, 255, 0.678);
   text-decoration: none;
-  box-shadow: inset 0 -2px 0 rgba(50, 85, 127, 0.5),
-    0 2px 0 rgba(50, 85, 127, 0);
+  /* box-shadow: inset 0 -2px 0 rgba(50, 85, 127, 0.5),
+    0 2px 0 rgba(50, 85, 127, 0); */
   transition: box-shadow 0.3s;
   overflow: hidden;
   font-weight: 200;
-  font-style: italic;
+  font-family: "Genos", sans-serif;
+
 }
 .introduction{
   font-family: "IBM Plex Mono", monospace;
@@ -85,7 +88,14 @@ body {
   -webkit-background-clip: text;
   font-size: 1.7rem;
 }
+.li_title{
+  background: linear-gradient(to right, #af40ff, #5b42f3 50%, #00ddeb) !important;
+  -webkit-text-fill-color: transparent !important;
+  -webkit-background-clip: text !important;
+  font-weight: bolder;
+  opacity: 1;
 
+}
 /* icon color */
 .iconColor {
   color: rgba(255, 255, 255, 0.384);
@@ -119,7 +129,9 @@ z-index: 1000;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-size: 1.5rem;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Genos", sans-serif;
+
   animation: scaleAndReturn 5s infinite;
   transition: ease-in-out 1s;
 
@@ -170,6 +182,16 @@ z-index: 1000;
   font-family: "Montserrat", sans-serif;
   color: rgba(255, 255, 255, 0.884);
   font-weight: 200;
+}
+.aboutlist {
+  list-style-type: "🧑🏾‍💻";
+  padding-inline-start: 1ch;
+
+}
+
+.photo{
+  background-image: url("../assets/images/profile.jpeg");
+  
 }
 emphasis {
   color: #5b42f3;
@@ -304,9 +326,9 @@ emphasis {
 .two h1:before {
   position: absolute;
   left: 0;
-  bottom: 0;
+  top:100% ;
   width: 60px;
-  height: 2px;
+  height: 3px;
   content: "";
   background-color: #5b42f3;
 }
@@ -333,6 +355,9 @@ emphasis {
   opacity: 0;
   transform: translateY(20px); /* Adjust as needed */
   transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.skill_title{
+  font-family: "Genos", sans-serif;
 }
 /* this is the profile border */
 

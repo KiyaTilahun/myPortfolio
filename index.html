@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kiya Tilahun</title>
-    <link rel="shortcut icon" type="image/png" href="assets/images/tab.png">
+    <link rel="shortcut icon" type="image/png" href="assets/images/tab.png" />
     <script defer src="scripts/script.js"></script>
 
     <link rel="stylesheet" href="style/styles.css" />
@@ -20,6 +20,10 @@
     />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
     <link
@@ -110,19 +114,20 @@
       </svg>
     </div>
 
-   
     <div id="content" style="display: none">
       <!-- up arrow -->
-      <a href="#home2"> 
-     <div class="hidden arrowup rounded-full fixed bottom-4 right-4  flex items-center justify-center text-center" id="arrow">
-     <i class='bx bx-chevron-up text-white text-4xl'></i>
-     </div>
-    </a>
+      <a href="#home2">
+        <div
+          class="hidden arrowup rounded-full fixed bottom-4 right-4 flex items-center justify-center text-center"
+          id="arrow"
+        >
+          <i class="bx bx-chevron-up text-white text-4xl"></i>
+        </div>
+      </a>
       <!-- end up arrow -->
       <!-- fixed social media -->
 
-
-      <div class="fixed h-auto  flex flex-col gap-2 items-center bottom-7">
+      <div class="fixed h-auto flex flex-col gap-2 items-center bottom-7">
         <a
           href="https://github.com/KiyaTilahun"
           class="iconColor1 pl-1 cursor-pointer hover:text-[#5b42f3]"
@@ -135,7 +140,7 @@
         ></a>
         <a
           href="https://linkedin.com/in/kiya-tilahun-5b2266202/"
-          class="iconColor1 pl-2 cursor-pointer hover:text-[#5b42f3] "
+          class="iconColor1 pl-2 cursor-pointer hover:text-[#5b42f3]"
           ><i class="bx bxl-linkedin"></i
         ></a>
       </div>
@@ -180,7 +185,7 @@
         </div>
       </div>
 
-      <div class="absolute top-0 md:left-0 right-0 p-4">
+      <!-- <div class="absolute top-0 md:left-0 right-0 p-4">
         <a
           href="https://github.com/KiyaTilahun"
           target="_blank"
@@ -188,12 +193,11 @@
         >
           <img src="assets/images/logo-no-background.png" class="h-8" />
         </a>
-      </div>
+      </div> -->
       <!-- header -->
 
       <section
-        class="sm:hidden header flex items-center fixed top-0 left-0 justify-between w-full m-0 backdrop-blur-xs hover:bg-black opacity-90"
-        
+        class="sm:hidden header flex items-center fixed top-0 left-0 justify-between w-full m-0 backdrop-blur-xs hover:bg-black opacity-90" id="nothing"
       >
         <div class="w-full">
           <button
@@ -258,9 +262,9 @@
                   aria-controls="navbar-default"
                   aria-expanded="true"
                 >
-                  <span class="toggle-element navshrink"
+                  <span class="toggle-element navshrink skill_title"
                     ><i class="bx bx-notepad pr-5 text-center"></i
-                    >Projects</span
+                    >Portfolio</span
                   ></a
                 >
               </li>
@@ -290,26 +294,26 @@
         </div>
       </section>
       <div class="mainbody">
-        <section class="lg:mx-24 sm:mx-15 page mx-8" id="home2">
+        <section class="lg:mx-24 sm:mx-15 page mx-8" id="hello" >
           <section
-            class="section home w-3/4 relative flex flex-col items-center h-auto mx-auto mt-16 justify-center"
+            class="section home w-3/4 relative flex flex-col items-center  md:h-screen mx-auto  md:mt-0 mt-16  justify-center " id="home2"
           >
             <div
-              class="w-full flex md:flex-row flex-col md:gap-16 items-end md:items-center mt-20"
+              class="w-full flex md:flex-row flex-col md:gap-16 items-end md:items-center mt-20 "
             >
-              <div class="md:block md:w-1/2 self-center">
+              <div class=" md:block  self-center md:w-[300px] ">
                 <img
-                  class="object-cover w-52 h-52 md:h-auto md:w-full md:rounded-full rounded-full transition duration-300 filter grayscale hover:filter-none hover:grayscale-0"
+                  class="object-cover w-40 h-40 md:h-auto md:w-full  rounded-full transition duration-300 filter grayscale hover:filter-none hover:grayscale-0"
                   src="assets/images/profile.png"
                   alt=""
                 />
               </div>
 
               <div
-                class="md:w-2/3 pt-20 md:pt-0 flex-col justify-center introduction text-center"
+                class="sm:w-full pt-20 md:pt-0 flex-col justify-center introduction text-center"
               >
                 <div class="toolti"><u>Hi There 👋</u> ,My name is</div>
-                <div class="myName font-bolder">Kiya</div>
+                <div class="myName font-bolder">Kiya Tilahun</div>
                 <div
                   class="description w-full md:h-100px"
                   style="color: white; height: 80px"
@@ -321,34 +325,44 @@
                     >
                   </span>
                 </div>
-                <div class="hidden sm:block social-links gap">
+                <div class="hidden sm:flex social-links gap  md:justify-between text-center">
+              <div>
+                <a
+                href="https://github.com/KiyaTilahun"
+                class="iconColor pl-1 cursor-pointer"
+                ><i class="bx bxl-github"></i
+              ></a>
+              <a
+                href="https://github.com/KiyaTilahun"
+                class="iconColor pl-1 cursor-pointer"
+                ><i class="bx bxl-facebook"></i
+              ></a>
+              <a
+                href="https://linkedin.com/in/kiya-tilahun-5b2266202/"
+                class="iconColor pl-2 cursor-pointer"
+                ><i class="bx bxl-linkedin"></i></a
+              ><a
+                href="https://instagram.com/kiya_tilahun_lemmi/"
+                class="iconColor pl-2 cursor-pointer"
+                ><i class="bx bxl-instagram"></i></a
+              ><a
+                href="https://t.me/Kkkiaa1"
+                class="iconColor pl-2 cursor-pointer"
+                ><i class="bx bxl-telegram"></i
+              ></a>
+              </div>
                   <a
-                    href="https://github.com/KiyaTilahun"
-                    class="iconColor pl-1 cursor-pointer"
-                    ><i class="bx bxl-github"></i
-                  ></a>
-                  <a
-                    href="https://github.com/KiyaTilahun"
-                    class="iconColor pl-1 cursor-pointer"
-                    ><i class="bx bxl-facebook"></i
-                  ></a>
-                  <a
-                    href="https://linkedin.com/in/kiya-tilahun-5b2266202/"
-                    class="iconColor pl-2 cursor-pointer"
-                    ><i class="bx bxl-linkedin"></i></a
-                  ><a
-                    href="https://instagram.com/kiya_tilahun_lemmi/"
-                    class="iconColor pl-2 cursor-pointer"
-                    ><i class="bx bxl-instagram"></i></a
-                  ><a
-                    href="https://t.me/Kkkiaa1"
-                    class="iconColor pl-2 cursor-pointer"
-                    ><i class="bx bxl-telegram"></i
-                  ></a>
+                  href="#contact"
+                  class="hidden md:inline knowmore-two bg-transparent text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded text-xl skill_title "
+                >
+                <i class="bx bxl-phone"></i
+                  >  Get In Touch
+                  <!-- <i class="bx bx-right-arrow-alt text-xl" style="color: #fff"></i> -->
+                </a>
                 </div>
               </div>
             </div>
-            <div class="md:self-end mt-20 md:text-right w-full text-center">
+            <div class="md:self-end mt-20 md:text-right w-full text-center md:hidden">
               <a
                 href="#contact"
                 class="knowmore-two bg-transparent text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded text-xl"
@@ -363,309 +377,202 @@
 
           <section
             id="about"
-            class="relative section about flex text-opacity-0.5 text-white w-full mx-auto flex-wrap md:mt-36 mt-20"
+            class="relative section about flex  text-white w-full mx-auto flex-wrap md:mt-2 mt-20 box-border"
           >
             <!-- <div class="hidden md:block absolute md:w-28 md:h-28 decor rounded-full "></div> -->
             <!-- <div class="hidden md:block absolute md:w-28 md:h-28 decor2 rounded-full "></div> -->
+            <div
+            class="two alt-two text-right text-2xl font-bold p-2 text-white m-2 basis-full"
+          >
+            <h1  class="myName tracking-widest">About</h1>
+          </div>
 
-            <div class="w-full lg:basis-1/2 mt-10">
+            <div class="md:w-auto w-full lg:basis-1/2 mt-10 aboutme sm:pr-8">
               <!-- <div class="text-2xl font-bold text-white pt-5">So who am I?</div> -->
-              <div class="two alt-two text-right text-2xl font-bold p-4">
-                <h1>Who am I?</h1>
-              </div>
-
-              <p class="pt-14 aboutme text-justify sm:pr-8 twelve">
-                Hello! I'm <emphasis>Kiya Tilahun</emphasis>, a passionate
+             
+              <p class="md:pt-14 pt-6  text-justify  twelve ">
+                Hello! I'm  a passionate
                 5th-year Software Engineering student at Jimma University. With
-                a focus on Full Stack Web Development and Mobile Development, I
-                immerse myself in the dynamic world of coding. From laying down
-                the foundations of logic to crafting intricate applications,
-                programming is my language of creation. Throughout my academic
-                journey, I've delved into various programming languages and
-                paradigms, shaping my understanding and honing my skills. Beyond
-                the classroom, I thrive on real-world projects, where the fusion
-                of theory and practice transforms into tangible solutions.
-                Whether it's the elegance of front-end design or the robustness
-                of back-end architecture, I find joy in every line of code. With
-                each project, I embrace the challenges, learning, and evolving
-                alongside the rapidly evolving tech landscape. In essence, my
-                journey is a testament to my love for coding and my unwavering
-                commitment to mastering the craft. I look forward to the endless
-                possibilities that lie ahead, fueled by curiosity and driven by
-                the desire to innovate.
-              </p>
-            </div>
-            <div
-              class="w-full two alt-two text-center text-2xl font-bold p-4 sm:hidden m-8"
-            >
-              <h1>Skill Sets</h1>
-            </div>
-            <div
-              class="w-full lg:basis-1/2 sm:pr-10 lg:block md:backdropblur-3xl lg:self-center"
-            >
-              <div
-                class="skills grid grid-cols-2 flex-col sm:grid sm:grid-cols-3 gap-4"
-              >
-                <div
-                  class="skill p-4 border border-gray-200 = rounded-xl hover:scale-125"
-                >
-                  <div class="flex justify-between">
-                    <h3 class="text-base font-semibold">LARAVEL</h3>
-                    <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/115px-Laravel.svg.png?20190820171151"
-                      alt="laravel"
-                      width="40"
-                      height="40"
-                    />
-                  </div>
-                  <div class="flex items-center mt-2">
-                    <div class="w-3/4 h-4 bg-gray-200 rounded-full">
-                      <div
-                        class="h-full progress rounded-full"
-                        style="width: 80%"
-                      ></div>
+                a focus on Full Stack Web Development and Mobile Development, I create fast, secure, and scalable web applications that meet and exceed clients' needs. </p>
+                <br>
+                <div class="">
+                  <h3 class="li_title font-extrabold">Mobile &amp; Web Developer.</h3>
+                  <p class="fst-italic">
+                    Hello and welcome to my portfolio! My name is Kiya  Tilahun,
+                  </p>
+                  <div class="grid sm:grid-cols-2 md:grid-cols-2 gap-4">
+                    <div class="">
+                      <ul>
+                        <li  class="my-4 aboutlist "><i class="bi bi-chevron-right"></i> <span class="li_title skill_title font-extrabold">Birthday:</span> <span class="italic">9 August 2001</span></li>
+                        <li class="my-4 aboutlist"><i class="bi bi-chevron-right"></i> <span class="li_title skill_title font-extrabold">Website:</span> <span class="italic"><a href="https://kiyatilahun.com">www.kiyatilahun.com</a></span></li>
+                        <li class="my-4 aboutlist"><i class="bi bi-chevron-right"></i> <span class="li_title skill_title font-extrabold">Phone:</span> <span class="italic"><a href="tel:+251943072433">+251943072433</a></span></li>
+                        <li class="my-4 aboutlist"><i class="bi bi-chevron-right"></i> <span class="li_title skill_title font-extrabold">City:</span> <span class="italic">Addis Ababa,Ethiopia</span></li>
+                      </ul>
                     </div>
-                    <span class="ml-2">80%</span>
+                    <div class="">
+                      <ul>
+                        <li  class="my-4 aboutlist"><i class="bi bi-chevron-right"></i> <span class="li_title skill_title  font-extrabold">Age:</span> <span class="italic">22</span></li>
+                        <li class="my-4 aboutlist"><i class="bi bi-chevron-right"></i> <span class="li_title skill_title font-extrabold">Degree:</span> <span class="italic">5th year SENG</span></li>
+                        <li class="my-4 aboutlist"><i class="bi bi-chevron-right"></i> <span class="li_title skill_title font-extrabold">Email:</span> <span class="italic"><a href="mailto:kiyatilahun0@gmail.com" >kiyatilahun0@gmail.com</a></span></li>
+                        <li class="my-4 aboutlist"><i class="bi bi-chevron-right"></i> <span class="li_title skill_title font-extrabold">Freelance:</span> <span class="italic">Available</span></li>
+                      </ul>
+                    </div>
                   </div>
+                  
                 </div>
 
-                <div class="skill p-4 border border-gray-200 rounded-xl">
-                  <div class="flex justify-between">
-                    <h3 class="text-base font-semibold">PHP</h3>
-                    <img
-                      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg"
-                      alt="php"
-                      width="40"
-                      height="40"
-                    />
-                  </div>
-                  <div class="flex items-center mt-2">
-                    <div class="w-3/4 h-4 bg-gray-200 rounded-full">
-                      <div
-                        class="h-full progress rounded-full"
-                        style="width: 70%"
-                      ></div>
-                    </div>
-                    <span class="ml-2">80%</span>
-                  </div>
-                </div>
-
-                <div class="skill p-4 border border-gray-200 rounded-xl">
-                  <div class="flex justify-between">
-                    <h3 class="text-base font-semibold">PYTHON</h3>
+              
+            </div>
+            <div
+              class="w-full two alt-two text-center text-2xl font-bold p-8 sm:hidden  "
+            >
+              <h1 class="myName skill_title">Skill Sets</h1>
+            </div>
+            
+            <div
+              class="w-full   lg:basis-1/2 sm:pr-10 lg:block md:backdropblur-3xl lg:self-center "
+            >
+              <div class="flex flex-col p-8">
+                <!-- Skill -->
+                <div class="flex-sec">
+                  <h1
+                    class="text-2xl text-opacity-65 li_title skill_title font-extrabold tracking-wide my-8"
+                  >
+                    Languages
+                  </h1>
+                  <div class="flex w-full flex-grow gap-4 justify-between flex-wrap">
+                    <div class="hover:border-solid hover:border-2 hover:rounded-full border-blue-500  ">
                     <img
                       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
                       alt="python"
                       width="40"
                       height="40"
-                    />
-                  </div>
-                  <div class="flex items-center mt-2">
-                    <div class="w-3/4 h-4 bg-gray-200 rounded-full">
-                      <div
-                        class="h-full progress rounded-full"
-                        style="width: 80%"
-                      ></div>
-                    </div>
-                    <span class="ml-2">80%</span>
-                  </div>
-                </div>
-
-                <div class="skill p-4 border border-gray-200 rounded-xl">
-                  <div class="flex justify-between">
-                    <h3 class="text-base font-semibold">JAVA</h3>
+                      class="grayscale hover:grayscale-0 hover:scale-110"
+                    /></div>
                     <img
                       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
                       alt="java"
                       width="40"
                       height="40"
+                      class="grayscale hover:grayscale-0 hover:scale-110"
                     />
-                  </div>
-                  <div class="flex items-center mt-2">
-                    <div class="w-3/4 h-4 bg-gray-200 rounded-full">
-                      <div
-                        class="h-full progress rounded-full"
-                        style="width: 90%"
-                      ></div>
-                    </div>
-                    <span class="ml-2">90%</span>
-                  </div>
-                </div>
-
-                <div class="skill p-4 border border-gray-200 rounded-xl">
-                  <div class="flex justify-between">
-                    <h3 class="text-base font-semibold">FLUTTER</h3>
                     <img
-                      src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg"
-                      alt="flutter"
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/306px-ISO_C%2B%2B_Logo.svg.png"
+                      alt="c++"
                       width="40"
                       height="40"
+                      class="grayscale hover:grayscale-0 hover:scale-110"
                     />
-                  </div>
-                  <div class="flex items-center mt-2">
-                    <div class="w-3/4 h-4 bg-gray-200 rounded-full">
-                      <div
-                        class="h-full progress rounded-full"
-                        style="width: 90%"
-                      ></div>
-                    </div>
-                    <span class="ml-2">90%</span>
-                  </div>
-                </div>
-
-                <div class="skill p-4 border border-gray-200 rounded-xl">
-                  <div class="flex justify-between">
-                    <h3 class="text-base font-semibold">BOOTSTRAP</h3>
                     <img
-                      src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg"
-                      alt="bootstrap"
+                      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg"
+                      alt="php"
                       width="40"
                       height="40"
+                      class="grayscale hover:grayscale-0 hover:scale-110"
                     />
-                  </div>
-                  <div class="flex items-center mt-2">
-                    <div class="w-3/4 h-4 bg-gray-200 rounded-full">
-                      <div
-                        class="h-full progress rounded-full"
-                        style="width: 95%"
-                      ></div>
-                    </div>
-                    <span class="ml-2">95%</span>
-                  </div>
-                </div>
-                <div class="skill p-4 border border-gray-200 rounded-xl">
-                  <div class="flex justify-between">
-                    <h3 class="text-base font-semibold">JAVASCRIPT</h3>
                     <img
                       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
                       alt="javascript"
                       width="40"
                       height="40"
+                      class="grayscale hover:grayscale-0 hover:scale-110"
                     />
                   </div>
-                  <div class="flex items-center mt-2">
-                    <div class="w-3/4 h-4 bg-gray-200 rounded-full">
-                      <div
-                        class="h-full progress rounded-full"
-                        style="width: 90%"
-                      ></div>
-                    </div>
-                    <span class="ml-2">80%</span>
-                  </div>
                 </div>
+                <div class="flex-sec">
+                  <h1
+                    class="text-2xl text-opacity-65 li_title skill_title font-extrabold my-8 tracking-wide"
+                  >
+                    Framework
+                  </h1>
+                  <div
+                    class="flex w-full flex-grow gap-4 justify-between flex-wrap"
+                  >
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/115px-Laravel.svg.png?20190820171151"
+                      alt="laravel"
+                      width="40"
+                      height="40"
+                      class="grayscale hover:grayscale-0 hover:scale-110"
+                    />
 
-                <div class="skill p-4 border border-gray-200 rounded-xl">
-                  <div class="flex justify-between">
-                    <h3 class="text-base font-semibold">HTML</h3>
                     <img
-                      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
-                      alt="html5"
+                      src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg"
+                      alt="flutter"
                       width="40"
                       height="40"
+                      class="grayscale hover:grayscale-0"
                     />
-                  </div>
-                  <div class="flex items-center mt-2">
-                    <div class="w-3/4 h-4 bg-gray-200 rounded-full">
-                      <div
-                        class="h-full progress rounded-full"
-                        style="width: 100%"
-                      ></div>
-                    </div>
-                    <span class="ml-2">100%</span>
-                  </div>
-                </div>
-                <div class="skill p-4 border border-gray-200 rounded-xl">
-                  <div class="flex justify-between">
-                    <h3 class="text-base font-semibold">CSS</h3>
                     <img
-                      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
-                      alt="css3"
+                      src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg"
+                      alt="bootstrap"
                       width="40"
                       height="40"
+                      class="grayscale hover:grayscale-0 hover:scale-110"
                     />
-                  </div>
-                  <div class="flex items-center mt-2">
-                    <div class="w-3/4 h-4 bg-gray-200 rounded-full">
-                      <div
-                        class="h-full progress rounded-full"
-                        style="width: 90%"
-                      ></div>
-                    </div>
-                    <span class="ml-2">90%</span>
-                  </div>
-                </div>
-                <div class="skill p-4 border border-gray-200 rounded-xl">
-                  <div class="flex justify-between">
-                    <h3 class="text-base font-semibold">TAILWIND</h3>
                     <img
                       src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
                       alt="tailwind"
                       width="40"
                       height="40"
+                      class="grayscale hover:grayscale-0 hover:scale-110"
                     />
-                  </div>
-                  <div class="flex items-center mt-2">
-                    <div class="w-3/4 h-4 bg-gray-200 rounded-full">
-                      <div
-                        class="h-full progress rounded-full"
-                        style="width: 80%"
-                      ></div>
-                    </div>
-                    <span class="ml-2">80%</span>
-                  </div>
-                </div>
-
-                <div class="skill p-4 border border-gray-200 rounded-xl">
-                  <div class="flex justify-between">
-                    <h3 class="text-base font-semibold">ALPINE JS</h3>
                     <img
                       src="https://seeklogo.com/images/A/alpine-js-logo-21F4169EAB-seeklogo.com.png"
                       alt="alpine"
                       width="40"
                       height="40"
+                      class="grayscale hover:grayscale-0 hover:scale-110"
                     />
-                  </div>
-                  <div class="flex items-center mt-2">
-                    <div class="w-3/4 h-4 bg-gray-200 rounded-full">
-                      <div
-                        class="h-full progress rounded-full"
-                        style="width: 90%"
-                      ></div>
-                    </div>
-                    <span class="ml-2">90%</span>
+                    <img
+                    src="https://avatars.githubusercontent.com/u/51960834?s=48&v=4"
+                    alt="alpine"
+                    width="40"
+                    height="40"
+                    class="grayscale hover:grayscale-0 hover:scale-110"
+                  />
                   </div>
                 </div>
-                <div class="skill p-4 border border-gray-200 rounded-xl">
-                  <div class="flex justify-between">
-                    <h3 class="text-base font-semibold">GIT</h3>
+                <div class="flex-sec">
+                  <h1
+                    class="text-2xl text-opacity-65 li_title skill_title font-extrabold my-8 tracking-wide"
+                  >
+                    Tools &amp; and Others
+                  </h1>
+                  <div
+                    class="flex w-auto flex-grow gap-4  flex-wrap"
+                  >
+                  
+                  <img
+                  src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
+                  alt="mysql"
+                  width="50"
+                  height="50"
+                  class="grayscale hover:grayscale-0 hover:scale-110"
+                />
                     <img
-                      src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
-                      alt="git"
-                      width="40"
-                      height="40"
+                      src="https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/MySQL_logo.svg/100px-MySQL_logo.svg.png"
+                      alt="mysql"
+                      width="50"
+                      height="50"
+                      class="grayscale hover:grayscale-0 hover:scale-110"
                     />
-                  </div>
-                  <div class="flex items-center mt-2">
-                    <div class="w-3/4 h-4 bg-gray-200 rounded-full">
-                      <div
-                        class="h-full progress rounded-full"
-                        style="width: 80%"
-                      ></div>
-                    </div>
-                    <span class="ml-2">80%</span>
+
+                   
+                   
                   </div>
                 </div>
               </div>
             </div>
           </section>
 
-          <section class="mt-20">
+          <section class="mt-20" id="projects">
             <div
-              class="two alt-two text-right text-2xl font-bold p-4 text-white m-4"
+              class="two alt-two text-right text-2xl font-bold p-5 text-white m-4 "
             >
-              <h1 id="projects">Projects</h1>
+              <h1  class="myName tracking-widest">Portfolio</h1>
             </div>
-            <div class="grid sm:grid-cols-2 md:grid-cols-2 gap-4">
+            <div class="grid sm:grid-cols-2 md:grid-cols-2 gap-4 mt-20">
               <div class="my_projects">
                 <a
                   href="https://github.com/KiyaTilahun/TaskManager"
@@ -773,7 +680,7 @@
             <div
               class="two alt-two text-right text-2xl font-bold p-4 text-white m-4"
             >
-              <h1>Contact us</h1>
+              <h1 class="myName tracking-widest">Contact us</h1>
             </div>
             <div
               class="flex flex-wrap flex-row-reverse md:flex-row items-center justify-center"
@@ -906,7 +813,7 @@
                     <a href="" class="text-blue-500 font-bold"
                       >click <i class="bx bxl-github text-xl"></i> here</a
                     >
-                     to see the code
+                    to see the code
                   </div>
                   <hr
                     class="sm:hidden my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"
@@ -914,7 +821,7 @@
                   <span
                     class="block text-sm text-gray-500 sm:text-center dark:text-gray-400"
                     >© 2024
-                    <a href="https://flowbite.com/" class="hover:underline"
+                    <a href="https://github.com/kiyatilahun/" class="hover:underline"
                       >kiya tilahun </a
                     >. All Rights Reserved.</span
                   >
@@ -934,7 +841,7 @@
     <!-- types script -->
     <script>
       // welcome page typing effect
-      
+
       var typed = new Typed("#professions", {
         strings: [
           "<span class='professions' >UI Designer.</span>",
@@ -944,10 +851,10 @@
         ],
         typeSpeed: 100,
         backSpeed: 20,
-      
+
         startDelay: 2000,
         backDelay: 700,
-        loop: true
+        loop: true,
       });
     </script>
     <!-- skill set script -->
@@ -1062,22 +969,40 @@
       });
     </script>
     <script>
-      const targetElement = document.getElementById('arrow');
- 
-  
-      window.addEventListener('scroll', function() {
+      const targetElement = document.getElementById("arrow");
+
+      window.addEventListener("scroll", function () {
         // Get the scroll position
-         const scroll = window.scrollY;
-         if (scroll > 100) { // Change the scroll threshold as needed
-          targetElement.classList.remove('hidden');
-        
-        }  else { // Change the scroll threshold as needed
-          targetElement.classList.add('hidden');
-        
-        } 
-       
+        const scroll = window.scrollY;
+        if (scroll > 100) {
+          // Change the scroll threshold as needed
+          targetElement.classList.remove("hidden");
+        } else {
+          // Change the scroll threshold as needed
+          targetElement.classList.add("hidden");
+        }
       });
-      
+    </script>
+    <script>
+      let sections = document.getElementsByTagNameNS('section');
+    
+      let navLinks = document.querySelectorAll('.nav a');
+      window.onscroll = () => {
+          sections.forEach(sec => {
+            console.log("hello");
+              let top = window.scrollY;
+              let offset = sec.offsetTop - 150;
+              let height = sec.offsetHeight;
+              let id = sec.getAttribute('id');
+              if(top >= offset && top < offset + height) {
+                  navLinks.forEach(links => {
+                      links.querySelector("div").classList.remove('active');
+                      document.querySelector('.nav a[href*=' + id + '] div').classList.add('active');
+                  });
+              };
+          });
+      };
+    
     </script>
 
     <script src="scripts/script.js"></script>
