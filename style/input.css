@@ -392,7 +392,7 @@ emphasis {
 /* projects */
 
 .my_projects:hover {
-  border:2px solid #5b42f3;
+  /* border:2px solid #5b42f3; */
   border-radius: 0.5rem;
 }
 
@@ -478,6 +478,28 @@ contactbtn:hover::after, button:focus::after {
   display: none;
 }
 
+.vn-mobile a{
+  /* background-color:#e74c3c; */
+  display:inline-block;
+  position:relative;
+  color:#fff;
+  transition:all 0.4s ease;
+  border-radius:3px
+}
+
+.vn-red a{
+  background-color:#e74c3c;
+  display:inline-block;
+  position:relative;
+  margin:30px 5px;
+  padding:10px 10px 10px 10px;
+  color:#fff;
+  transition:all 0.4s ease;
+  border-radius:3px
+}
+.vn-red a:hover{ 
+  background:#7f8c8d
+}
 @keyframes ring {
   0% {
     width: 30px;
